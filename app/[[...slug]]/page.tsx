@@ -510,8 +510,9 @@ function SceneContent({ selectedStory, onSelect, activeHover, onHover }: { selec
 
             </group>
 
-            <FloatingDust count={150} />
-            <Effects />
+            {/* Removed FloatingDust and Effects for performance and clarity */}
+            {/* <FloatingDust count={150} /> */}
+            {/* <Effects /> */}
 
             <OrbitControls
                 enableZoom={false}
