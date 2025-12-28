@@ -12,6 +12,8 @@ import SolidArtifact from "@/components/SolidArtifact";
 import Hall from "@/components/Hall";
 import CinematicCamera from "@/components/CinematicCamera";
 import AppLoader from "@/components/AppLoader";
+import ScrollIntro from "@/components/ScrollIntro";
+import IntroCamera from "@/components/IntroCamera";
 import { useParams, useRouter } from "next/navigation";
 
 // --- AUDIO MANAGER ---
@@ -397,7 +399,7 @@ const CinematicOverlay = ({ storyKey, onClose, onNext, onPrev, onSelect, isMuted
     );
 }
 
-function SceneContent({ selectedStory, onSelect, activeHover, onHover }: { selectedStory: string | null, onSelect: (k: string) => void, activeHover: string | null, onHover: (k: string | null) => void }) {
+function SceneContent({ selectedStory, onSelect, activeHover, onHover, introPhase, scrollProgress }: { selectedStory: string | null, onSelect: (k: string) => void, activeHover: string | null, onHover: (k: string | null) => void, introPhase: 'title' | 'scroll' | 'explore', scrollProgress: number }) {
     const { camera } = useThree();
     const groupRef = useRef<THREE.Group>(null);
     const storyRef = useRef(selectedStory);
@@ -433,6 +435,7 @@ function SceneContent({ selectedStory, onSelect, activeHover, onHover }: { selec
 
             <Suspense fallback={null}>
                 {selectedStory && <CinematicCamera selectedStory={selectedStory} />}
+                {introPhase === 'scroll' && <IntroCamera progress={scrollProgress / 100} />}
             </Suspense>
 
             {/* Lighting */}
@@ -452,7 +455,7 @@ function SceneContent({ selectedStory, onSelect, activeHover, onHover }: { selec
             <Hall active={!selectedStory} />
 
             {/* CENTRAL ORBIT RING */}
-            <group position={[0, -1, 0]} ref={groupRef}>
+            <group position={[0, -1, 0]} ref={groupRef} visible={introPhase === 'explore' || introPhase === 'scroll'}>
 
                 {/* ARMOR (Index 0) */}
                 <group position={getOrbitPosition(0, ARTIFACT_ORDER.length, ORBIT_RADIUS) as any} rotation={[0, 0, 0]}>
@@ -517,11 +520,11 @@ function SceneContent({ selectedStory, onSelect, activeHover, onHover }: { selec
             <OrbitControls
                 enableZoom={false}
                 enablePan={false}
-                autoRotate={!selectedStory}
+                autoRotate={!selectedStory && introPhase === 'explore'}
                 autoRotateSpeed={0.5}
                 maxPolarAngle={Math.PI / 1.8}
                 minPolarAngle={Math.PI / 2.2}
-                enabled={!selectedStory}
+                enabled={!selectedStory && introPhase === 'explore'}
             />
         </>
     );
@@ -532,29 +535,25 @@ export default function MainMenu() {
     const [activeStory, setActiveStory] = useState<string | null>(null);
     const [selectedStory, setSelectedStory] = useState<StoryKey | null>(null);
     const [muted, setMuted] = useState(true);
-    const [entered, setEntered] = useState(false);
     const [loaded, setLoaded] = useState(false);
+
+    // New State for Cinematic Scroll
+    const [introPhase, setIntroPhase] = useState<'title' | 'scroll' | 'explore'>('title');
+    const [scrollProgress, setScrollProgress] = useState(0);
 
     const params = useParams();
     const router = useRouter();
 
     // Route Synchronization
     useEffect(() => {
-        // If params.slug exists, open that story
         if (params.slug && params.slug[0]) {
             const slug = params.slug[0];
-            // Check if slug matches a story key or the prefix 'story'
-            // Handle case where route is /story/boot -> slug might be ['story', 'boot']
-            // OR if route is [[...slug]] and url is /boot -> slug is ['boot']
-            // Let's assume URL structure /boot for simplicity first, or check logic
-            // Based on [[...slug]], visiting /boot gives params.slug = ['boot']
-
             if (ARTIFACT_ORDER.includes(slug as StoryKey)) {
                 setSelectedStory(slug as StoryKey);
-                setEntered(true); // Auto-enter if directly visiting a story
+                setIntroPhase('explore'); // Skip intro if deep linking
+                setMuted(false);
             }
         } else {
-            // Root path
             setSelectedStory(null);
         }
     }, [params.slug]);
@@ -569,9 +568,55 @@ export default function MainMenu() {
     };
 
     const handleEnter = () => {
-        setEntered(true);
+        setIntroPhase('scroll');
         setMuted(false);
     };
+
+    const skipScroll = () => {
+        setScrollProgress(100);
+        setTimeout(() => setIntroPhase('explore'), 500);
+    };
+
+    // Scroll Handler
+    useEffect(() => {
+        if (introPhase !== 'scroll') return;
+
+        const handleWheel = (e: WheelEvent) => {
+            setScrollProgress(prev => {
+                const newProgress = Math.min(Math.max(prev + e.deltaY * 0.05, 0), 100);
+                if (newProgress >= 100) {
+                    setTimeout(() => setIntroPhase('explore'), 500);
+                }
+                return newProgress;
+            });
+        };
+
+        // Touch support for mobile
+        let touchStartY = 0;
+        const handleTouchStart = (e: TouchEvent) => { touchStartY = e.touches[0].clientY; };
+        const handleTouchMove = (e: TouchEvent) => {
+            const deltaY = touchStartY - e.touches[0].clientY;
+            setScrollProgress(prev => {
+                const newProgress = Math.min(Math.max(prev + deltaY * 0.1, 0), 100);
+                if (newProgress >= 100) {
+                    setTimeout(() => setIntroPhase('explore'), 500);
+                }
+                return newProgress;
+            });
+            touchStartY = e.touches[0].clientY; // Reset for continuous drag
+        };
+
+        window.addEventListener('wheel', handleWheel);
+        window.addEventListener('touchstart', handleTouchStart);
+        window.addEventListener('touchmove', handleTouchMove);
+
+        return () => {
+            window.removeEventListener('wheel', handleWheel);
+            window.removeEventListener('touchstart', handleTouchStart);
+            window.removeEventListener('touchmove', handleTouchMove);
+        };
+    }, [introPhase]);
+
 
     const cycleStory = (direction: 'next' | 'prev') => {
         if (!selectedStory) return;
@@ -594,7 +639,12 @@ export default function MainMenu() {
             <div className="blue-vignette pointer-events-none" />
 
             {loaded && <AudioController isMuted={muted} />}
-            {loaded && !entered && <IntroOverlay onEnter={handleEnter} />}
+
+            {loaded && introPhase === 'title' && <IntroOverlay onEnter={handleEnter} />}
+
+            {introPhase === 'scroll' && (
+                <ScrollIntro progress={scrollProgress} onSkip={skipScroll} />
+            )}
 
             {selectedStory && (
                 <CinematicOverlay
@@ -614,11 +664,13 @@ export default function MainMenu() {
                         onSelect={(k) => handleStorySelect(k as StoryKey)}
                         activeHover={activeStory}
                         onHover={setActiveStory}
+                        introPhase={introPhase}
+                        scrollProgress={scrollProgress}
                     />
                 </Suspense>
             </Canvas>
 
-            {!selectedStory && activeStory && entered && (
+            {!selectedStory && activeStory && introPhase === 'explore' && (
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none transition-opacity duration-500 z-10 w-full text-center">
                     <h2 className="text-5xl md:text-8xl font-thin tracking-[0.1em] uppercase text-shadow-xl blur-[0.5px] opacity-90 mx-auto w-fit">
                         {STORIES[activeStory as StoryKey]?.title}
