@@ -411,11 +411,17 @@ function SceneContent({ selectedStory, onSelect, activeHover, onHover }: { selec
         if (!groupRef.current) return;
 
         let targetRotation = 0;
+        const currentStory = storyRef.current;
 
-        // DISABLE ROTATION LOGIC:
-        // The CinematicCamera animations expect the artifacts to be in their static positions (Ring Rotation 0).
-        // If we rotate the ring, we move the artifact away from where the camera is flying.
-        targetRotation = 0;
+        if (currentStory) {
+            const index = ARTIFACT_ORDER.indexOf(currentStory as StoryKey);
+            if (index !== -1) {
+                const angle = (index / ARTIFACT_ORDER.length) * Math.PI * 2;
+                targetRotation = -angle;
+            }
+        } else {
+            targetRotation = 0;
+        }
 
         const currentRot = groupRef.current.rotation.y;
         groupRef.current.rotation.y = THREE.MathUtils.lerp(currentRot, targetRotation, delta * 2);
