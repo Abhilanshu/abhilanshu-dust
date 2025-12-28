@@ -1,0 +1,1699 @@
+{
+  "title": "Mouthful of Dust",
+  "templates": ["pageTitle", "caption3d", "assetView", "assetDetails", "about"],
+  "assets": {
+    "boot": {
+      "author": "Cameron Hurst of <span class='italic'>The Paris End</span>",
+      "bio": "Cameron Hurst is a writer and founding editor of <span class='italic'>The Paris End</span>. <span class='italic'>The Paris End</span> is Melbourne's finest weekly newsletter of arts, culture, and goings-on around town, and has been covered by <span class='italic'>The New York Times</span>, <span class='italic'>The Age</span>, and <span class='italic'>The Conversation</span>, among other publications. Hurst is also a PhD candidate in the Art History program at the University of Melbourne and a contributing editor of <span class='italic'>Memo Review</span> and <span class='italic'>Index Press</span>.",
+      "authorLink": "https://theparisend.substack.com/",
+      "label": "The Boot",
+      "title": "Boot worn by Ned Kelly c. 1870–80",
+      "maker": "Unknown Maker",
+      "material": "Leather, iron and wood",
+      "credit": "On loan from the descendants of the late Jesse Dowsett",
+      "detail": "This right-foot boot belonged to Ned Kelly and was worn during his gang’s last stand at Glenrowan. After Kelly was captured, a reporter at the scene cut the boot from his severely injured foot. The boot was then given to railway guard Jesse Dowsett in recognition of his role in the capture. Dowsett had aided two of the gang’s hostages in escaping from the Glenrowan Inn and, along with the police, disarmed Kelly of his revolver after he succumbed to wounds from twenty-eight bullets. Historian Ian Jones notes that while one policeman intended to shoot Kelly on the spot, it was Dowsett who protested he be taken into custody alive.",
+      "alt": "A 3D scanned model of Ned Kelly’s right boot. The boot has a heel and a tall shaft and is entirely in a brown leather colour. The shaft of the boot is bare, missing laces. Stitching is visible near the heel of the boot and the base of the shaft. A leather texture is present across the entire surface of the boot.",
+      "onboardIcon": "Onboard-Boot.svg",
+      "torusPosition": 0.2,
+      "sort": 0,
+      "cameraAnimation": {
+        "file": "https://d38p9xpr4rdpkc.cloudfront.net/slv-a-mouthful-of-dust/media/3d-models/174401664b951/camera-animation__boot.glb",
+        "type": "adaptive-fov"
+      },
+      "transform": {
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "position": { "x": 0, "y": 0, "z": 0 },
+        "scale": 100.0
+      },
+
+      "brightness": 0.6,
+      "models": [
+        {
+          "file": "Boot",
+          "files": {
+            "High": "/slv-a-mouthful-of-dust/media/3d-models/174399632fbb7/boot.high.glb",
+            "Med": "/slv-a-mouthful-of-dust/media/3d-models/174399632020c/boot.med.glb",
+            "Low": "/slv-a-mouthful-of-dust/media/3d-models/17439963216d4/boot.low.glb"
+          },
+          "textures": {
+            "baseColor": "slv-a-mouthful-of-dust/media/images/173094494ba59/boot.jpg",
+            "metallic": "slv-a-mouthful-of-dust/media/images/1730944947e0b/boot.m.jpg",
+            "roughness": "slv-a-mouthful-of-dust/media/images/173094548d8d4/boot.r.jpg",
+            "ao": "slv-a-mouthful-of-dust/media/images/1753099674af1/boot.high.ao.jpg",
+            "normal": {
+              "shared": "slv-a-mouthful-of-dust/media/images/1730945029e36/boot.n.jpg",
+              "quality": {
+                "Tiny": "slv-a-mouthful-of-dust/media/images/1737430609683/boot.tiny.n1.jpg",
+                "Low": "slv-a-mouthful-of-dust/media/images/17531070182ed/boot.low.n.jpg",
+                "Med": "slv-a-mouthful-of-dust/media/images/17531071425ff/boot.med.n.jpg",
+                "High": "slv-a-mouthful-of-dust/media/images/1753099627186/boot.high.n.jpg"
+              }
+            }
+          },
+          "shader": true,
+          "exposure": 1.0,
+          "rotation": { "x": 61, "y": -123, "z": 56 },
+          "position": { "x": -0.05, "y": -0.15, "z": 0.1 },
+          "scale": 1.0,
+          "view": {
+            "rotation": { "x": 0, "y": 90, "z": 0 },
+            "position": { "x": -0.025, "y": -0.175, "z": 0 },
+            "scale": 1.0
+          }
+        }
+      ],
+      "cameraCollisionMesh": {
+        "file": "Boot",
+        "transform": {
+          "position": { "x": -0.01, "y": -0.0175, "z": 0 },
+          "rotation": { "x": 0, "y": 90, "z": 0 },
+          "scale": 1.0
+        }
+      },
+      "writing": {
+        "title": "Ned Kelly’s boot",
+        "copyFile": "boot"
+      },
+      "audioTrack": "act3Boot",
+      "audioTransitionTrack": "act3BootTransition",
+      "captions": "boot.srt",
+      "lighting": {
+        "manual": {
+          "rotation": { "x": 354, "y": 204, "z": 0 },
+          "brightness": 0.6
+        },
+        "lightingKeyframes": [
+          {
+            "note": "initial",
+            "time": 0,
+            "rotation": { "x": 0, "y": 38, "z": -18 },
+            "brightness": 0.6
+          },
+
+          {
+            "note": "hold",
+            "time": 11.432827830146863,
+            "rotation": { "x": 0, "y": 38, "z": -18 },
+            "brightness": 0.6
+          },
+
+          {
+            "note": "front",
+            "time": 14.38405284136881,
+            "rotation": { "x": 84, "y": 44, "z": -86 },
+            "brightness": 0.6
+          },
+
+          {
+            "note": "left",
+            "time": 19.62666666666667,
+            "rotation": { "x": 270, "y": -11, "z": -58 },
+            "brightness": 0.6
+          },
+
+          {
+            "note": "hold",
+            "time": 22.150187584164605,
+            "rotation": { "x": 270, "y": -11, "z": -58 },
+            "brightness": 0.6
+          },
+
+          {
+            "note": "lower back",
+            "time": 23.90984588383209,
+            "rotation": { "x": 111, "y": 18, "z": -19 },
+            "brightness": 0.6
+          },
+
+          {
+            "note": "under",
+            "time": 30.809839426041393,
+            "rotation": { "x": 20, "y": -77, "z": 13 },
+            "brightness": 0.6
+          },
+
+          {
+            "note": "front close",
+            "time": 41.66678526498569,
+            "rotation": { "x": -124, "y": -49, "z": -97 },
+            "brightness": 0.6
+          },
+
+          {
+            "note": "right side cracks",
+            "time": 52.39817466858319,
+            "rotation": { "x": -173, "y": -195, "z": -69 },
+            "brightness": 0.6
+          },
+
+          {
+            "note": "back close",
+            "time": 56.82480199898404,
+            "rotation": { "x": -186, "y": -197, "z": -33 },
+            "brightness": 0.6
+          },
+
+          {
+            "note": "hold til front",
+            "time": 74.26117598827007,
+            "rotation": { "x": -186, "y": -197, "z": -33 },
+            "brightness": 0.6
+          },
+
+          {
+            "note": "enter boot",
+            "time": 83.71705915851581,
+            "rotation": {
+              "x": -188.14189679725698,
+              "y": -193.25168060480033,
+              "z": -38.89021619245665
+            },
+            "brightness": 0.6
+          },
+
+          {
+            "note": "inside low",
+            "time": 91.46262264117468,
+            "rotation": { "x": -190, "y": -190, "z": -44 },
+            "brightness": 0.9
+          },
+
+          {
+            "note": "high top inside",
+            "time": 100.59233055331585,
+            "rotation": { "x": -80, "y": -188, "z": -76 },
+            "brightness": 0.9
+          },
+
+          {
+            "note": "high outside close down",
+            "time": 107.30982064219086,
+            "rotation": { "x": 0, "y": -188, "z": -100 },
+            "brightness": 0.6
+          },
+
+          {
+            "note": "heel - hold",
+            "time": 118.10245179100865,
+            "rotation": { "x": 0, "y": -188, "z": -100 },
+            "brightness": 0.6
+          },
+
+          {
+            "note": "heel - hold",
+            "time": 121.89978512434197,
+            "rotation": { "x": -33, "y": -230, "z": -77 },
+            "brightness": 0.6
+          },
+
+          {
+            "note": "heel - tilt",
+            "time": 151.24135624383496,
+            "rotation": { "x": 69, "y": 29, "z": 175 },
+            "brightness": 0.6
+          },
+
+          {
+            "note": "close ranges",
+            "time": 173.42946838436325,
+            "rotation": { "x": 86, "y": -42, "z": 157 },
+            "brightness": 0.6
+          },
+
+          {
+            "note": "close ranges - hold",
+            "time": 191.75288420864518,
+            "rotation": { "x": 86, "y": -42, "z": 157 },
+            "brightness": 0.6
+          },
+
+          {
+            "note": "close ranges",
+            "time": 204.5753066313615,
+            "rotation": { "x": -341, "y": 27, "z": 144 },
+            "brightness": 0.6
+          },
+
+          {
+            "note": "before entering boot",
+            "time": 227.92340585630836,
+            "rotation": { "x": -341, "y": 27, "z": 144 },
+            "brightness": 0.6
+          },
+
+          {
+            "note": "after entering boot",
+            "time": 228.24824132328914,
+            "rotation": { "x": -341, "y": 27, "z": 144 },
+            "brightness": 0.1
+          },
+
+          {
+            "note": "before leaving boot",
+            "time": 235.05563718467732,
+            "rotation": { "x": -341, "y": 27, "z": 144 },
+            "brightness": 0.1
+          },
+
+          {
+            "note": "after leaving boot",
+            "time": 235.74897051801065,
+            "rotation": { "x": -341, "y": 27, "z": 144 },
+            "brightness": 0.6
+          },
+
+          {
+            "note": "back to initial",
+            "time": 258.05525673760064,
+            "rotation": { "x": 0, "y": 38, "z": -18 },
+            "brightness": 0.6
+          }
+        ]
+      }
+    },
+    "rifle": {
+      "author": "Sarah Krasnostein",
+      "bio": "Sarah Krasnostein is a multi-award winning writer and critic. She is the best-selling author of <span class='italic'>The Trauma Cleaner</span>, <span class='italic'>The Believer</span>, the <span class='italic'>Quarterly Essay</span>, <span class='italic'>Not Waving</span>, <span class='italic'>Drowning</span> and <span class='italic'>On Peter Carey</span>. Her awards include the Victorian Prize for Literature, the Australian Book Industry Award for Non-Fiction and the Walkley’s Pascall Prize for Arts Criticism. She is a regular contributor to <span class='italic'>The Monthly</span> and <span class='italic'>The Saturday Paper</span>. She holds a doctorate in criminal law and is admitted to legal practice in Australia and America.",
+      "authorLink": "https://sarahkrasnostein.com/",
+      "label": "The Rifle",
+      "title": "Snider-Enfield 0.577 calibre long rifle belonging to Ned Kelly before 1880",
+      "maker": "RSAF ENFIELD, manufacturer",
+      "material": "Metal and wood",
+      "catLink": "https://find.slv.vic.gov.au/permalink/61SLV_INST/1sev8ar/alma9917833593607636",
+      "accNo": "H2002.136",
+      "credit": "Anonymous donation 2001",
+      "detail": "This rifle’s timber butt features several inscriptions, with the clearest one reading ‘NK son of RED.’ Ned Kelly’s father John, who arrived in Australia as a convict, was commonly known as Red Kelly. Another inscription on the left-hand side depicts a deer with the letters ‘K’ and ‘8’ (K 8) underneath, along with a heart shape containing the letters ‘U’ and ‘R.’ This cryptogram, or coded text, translates to ‘Dear Kate, you are in my heart,’ and is believed to be related to Kate Lloyd, Ned&#39;s cousin and sweetheart. This rifle was previously owned by the artist Albert Tucker who, like his contemporary Sidney Nolan, created paintings depicting the life of Ned Kelly.",
+      "alt": "A 3D scanned model of Ned Kelly’s rifle. A long gun with a wooden handle and metal barrel, the whole rifle has a red, rust like colour to it. There is a small ring towards the back of the rifle where the trigger is, and two more rings along the barrel for a shoulder strap. The rifle has a manual cocking hammer and a handle for the rifle’s bolt.",
+      "torusPosition": 0.4,
+      "onboardIcon": "Onboard-Rifle.svg",
+      "sort": 1,
+      "brightness": 0.75,
+      "cameraAnimation": {
+        "file": "https://d38p9xpr4rdpkc.cloudfront.net/slv-a-mouthful-of-dust/media/3d-models/174401647a3bf/camera-animation__rifle.glb",
+        "type": "basic"
+      },
+      "transform": {
+        "scale": 100.0
+      },
+      "menuOffset": { "x": 0, "y": 0, "z": 10 },
+      "models": [
+        {
+          "file": "Rifle",
+          "files": {
+            "High": "/slv-a-mouthful-of-dust/media/3d-models/174399684409b/rifle.high.glb",
+            "Med": "/slv-a-mouthful-of-dust/media/3d-models/174399684078c/rifle.med.glb",
+            "Low": "/slv-a-mouthful-of-dust/media/3d-models/1743996844968/rifle.low.glb"
+          },
+          "textures": {
+            "baseColor": "slv-a-mouthful-of-dust/media/images/173094811bbd5/rifle.jpg",
+            "metallic": "slv-a-mouthful-of-dust/media/images/173094801652c/rifle.m.jpg",
+            "roughness": "slv-a-mouthful-of-dust/media/images/1730948362b54/rifle.r.jpg",
+            "ao": "slv-a-mouthful-of-dust/media/images/17309484464cc/rifle.ao.jpg",
+            "normal": {
+              "shared": "slv-a-mouthful-of-dust/media/images/17309485162f8/rifle.n.jpg",
+              "quality": {
+                "Tiny": "slv-a-mouthful-of-dust/media/images/173743076b539/rifle.tiny.n.jpg",
+                "Low": "slv-a-mouthful-of-dust/media/images/175310784b800/rifle.low.n.jpg",
+                "Med": "slv-a-mouthful-of-dust/media/images/175310778f5e3/rifle.med.n.jpg",
+                "High": "slv-a-mouthful-of-dust/media/images/175310736bb90/rifle.high.n.jpg"
+              }
+            }
+          },
+          "shader": true,
+          "exposure": 1.0,
+          "scale": 1.0,
+          "position": {
+            "x": 0.31,
+            "y": 0,
+            "z": 0
+          },
+          "rotation": {
+            "x": 92,
+            "y": -17,
+            "z": 86
+          },
+          "view": {
+            "rotation": { "x": 90, "y": 0, "z": -90 },
+            "position": { "x": 0, "y": 0, "z": 0 },
+            "scale": 1.0
+          }
+        }
+      ],
+      "cameraCollisionMesh": {
+        "file": "Rifle",
+        "transform": {
+          "rotation": { "x": 90, "y": 0, "z": -90 },
+          "position": { "x": 0, "y": 0, "z": 0 },
+          "scale": 1
+        }
+      },
+      "blendSettings": {
+        "normal": {
+          "min": 50,
+          "max": 80
+        },
+        "focus": {
+          "min": 50,
+          "max": 80
+        },
+        "mode": {
+          "min": 50,
+          "max": 80
+        }
+      },
+      "defaultZoom": 150,
+      "writing": {
+        "title": "Ned Kelly’s rifle",
+        "copyFile": "rifle"
+      },
+      "audioTrack": "act3Rifle",
+      "audioTransitionTrack": "act3RifleTransition",
+      "captions": "rifle.srt",
+      "lighting": {
+        "manual": {
+          "rotation": { "x": 73, "y": 13, "z": 310 },
+          "brightness": 1.0
+        },
+
+        "lightingKeyframes": [
+          {
+            "time": 0,
+            "rotation": { "x": -20, "y": 208, "z": 104 },
+            "brightness": 1.0
+          },
+          {
+            "time": 35.266962642541245,
+            "rotation": { "x": 0, "y": 168, "z": 104 },
+            "brightness": 1.0
+          },
+          {
+            "time": 75.15898307857314,
+            "rotation": { "x": 0, "y": 168, "z": 104 },
+            "brightness": 1.0
+          },
+          {
+            "note": "end of butt transition",
+            "time": 78.06456976880918,
+            "rotation": { "x": 64, "y": -29, "z": 206 },
+            "brightness": 0.5
+          },
+
+          {
+            "note": "start darkening",
+            "time": 87.69542324355818,
+            "rotation": { "x": 64, "y": -29, "z": 206 },
+            "brightness": 0.5
+          },
+
+          {
+            "note": "right before entering rifle",
+            "time": 87.97381437038214,
+            "rotation": { "x": 64, "y": -29, "z": 206 },
+            "brightness": 0.15
+          },
+          {
+            "note": "right after entering rifle",
+            "time": 87.97381437038215,
+            "rotation": { "x": 232, "y": -42, "z": -229 },
+            "brightness": 0.1
+          },
+
+          {
+            "note": "rifle hold til fire",
+            "time": 91.61752773906942,
+            "rotation": { "x": 232, "y": -42, "z": -229 },
+            "brightness": 0.1
+          },
+
+          {
+            "note": "void after leaving barrel",
+            "time": 93.07351664759939,
+            "rotation": { "x": 232, "y": -42, "z": 102 },
+            "brightness": 0.5
+          },
+
+          {
+            "note": "setting next lighting while off screen",
+            "time": 93.0735166475994,
+            "rotation": { "x": -20, "y": 208, "z": 104 },
+            "brightness": 1.0
+          },
+
+          {
+            "note": "hold key for previous",
+            "time": 95.91295447644394,
+            "rotation": { "x": -20, "y": 208, "z": 104 },
+            "brightness": 1.0
+          },
+
+          {
+            "note": "start of barrel sequence",
+            "time": 96.3582933555123,
+            "rotation": { "x": 0, "y": 60, "z": 0 },
+            "brightness": 0.7
+          },
+
+          {
+            "note": "hold for barrel sequence",
+            "time": 116.01841916050952,
+            "rotation": { "x": 0, "y": 60, "z": 0 },
+            "brightness": 0.7
+          },
+
+          {
+            "note": "counter rotation around rifle - mid",
+            "time": 123.11010480052173,
+            "rotation": { "x": 0, "y": 100, "z": 0 },
+            "brightness": 0.7
+          },
+          {
+            "note": "counter rotation around rifle - end",
+            "time": 129.41247929014062,
+            "rotation": { "x": 0, "y": 60, "z": 0 },
+            "brightness": 0.7
+          },
+
+          {
+            "note": "start bringing brightness down",
+            "time": 129.41247929014062,
+            "rotation": { "x": 0, "y": 60, "z": 0 },
+            "brightness": 0.7
+          },
+
+          {
+            "note": "right before entering rifle",
+            "time": 134.37350380922117,
+            "rotation": { "x": 0, "y": 60, "z": 0 },
+            "brightness": 0.2
+          },
+
+          {
+            "note": "right before entering rifle",
+            "time": 134.37350380922118,
+            "rotation": { "x": -27, "y": 89, "z": 93 },
+            "brightness": 0.1
+          },
+
+          {
+            "note": "right before exiting rifle",
+            "time": 141.73237946691031,
+            "rotation": { "x": -27, "y": 89, "z": 93 },
+            "brightness": 0.1
+          },
+
+          {
+            "note": "right after exiting rifle",
+            "time": 141.73237946691032,
+            "rotation": { "x": -38, "y": -104, "z": -2 },
+            "brightness": 0.2
+          },
+
+          {
+            "note": "ease up the brightness",
+            "time": 142.53771280024364,
+            "rotation": { "x": -38, "y": -104, "z": -2 },
+            "brightness": 0.5
+          },
+
+          {
+            "note": "trigger quarter",
+            "time": 149.9669906762268,
+            "rotation": { "x": 15, "y": -62, "z": 0 },
+            "brightness": 0.5
+          },
+
+          {
+            "note": "trigger profile",
+            "time": 166.65190602751514,
+            "rotation": { "x": -29, "y": -139, "z": 27 },
+            "brightness": 0.5
+          },
+
+          {
+            "note": "top side",
+            "time": 181.9379755017081,
+            "rotation": { "x": 120, "y": 30, "z": 0 },
+            "brightness": 0.5
+          },
+
+          {
+            "note": "hold frame",
+            "time": 200.4509223804984,
+            "rotation": { "x": 120, "y": 30, "z": 0 },
+            "brightness": 0.5
+          },
+
+          {
+            "note": "wide",
+            "time": 219.55799593773997,
+            "rotation": { "x": -90, "y": 30, "z": 0 },
+            "brightness": 0.8
+          },
+
+          {
+            "note": "wide - hold",
+            "time": 220.56866815014166,
+            "rotation": { "x": -90, "y": 30, "z": 0 },
+            "brightness": 0.8
+          },
+
+          {
+            "note": "stock",
+            "time": 227.51266815014168,
+            "rotation": { "x": 0, "y": 30, "z": 0 },
+            "brightness": 0.7
+          },
+
+          {
+            "note": "inside barrel transition - b",
+            "time": 296.1676124085697,
+            "rotation": { "x": 0, "y": 30, "z": 0 },
+            "brightness": 0.7
+          },
+
+          {
+            "note": "inside barrel transition - a",
+            "time": 296.1676124085698,
+            "rotation": { "x": 232, "y": -42, "z": -212 },
+            "brightness": 0.5
+          },
+
+          {
+            "note": "inside barrel lerp brightness",
+            "time": 298.4582846209714,
+            "rotation": { "x": 232, "y": -42, "z": -212 },
+            "brightness": 0.1
+          },
+
+          {
+            "note": "inside barrel - hold",
+            "time": 311.1136503552608,
+            "rotation": { "x": 232, "y": -42, "z": -212 },
+            "brightness": 0.1
+          },
+
+          {
+            "note": "outside",
+            "time": 311.1136503552609,
+            "rotation": { "x": -20, "y": 208, "z": 104 },
+            "brightness": 0.1
+          },
+
+          {
+            "note": "outside lerp brightness",
+            "time": 312.1536503552608,
+            "rotation": { "x": -20, "y": 208, "z": 104 },
+            "brightness": 1.0
+          }
+        ]
+      }
+    },
+    "letter": {
+      "author": "Nam Le",
+      "bio": "Nam Le’s work encompasses fiction, non-fiction, poetry and screen. His debut poetry collection <span class='italic'>36 Ways of Writing a Vietnamese Poem</span> was published in March 2024 in Australia, the U.S. and U.K. Poems from it appeared in <span class='italic'>Poetry</span>, <span class='italic'>Paris Review</span>, <span class='italic'>Granta</span>, <span class='italic'>American Poetry Review</span>, <span class='italic'>BOMB</span>, <span class='italic'>HEAT</span>, <span class='italic'>Overland</span> and elsewhere. Le’s work has been translated into over fourteen languages and has received major awards internationally, including the PEN/Malamud Award, the Dylan Thomas Prize, the Australian Prime Minister’s Literary Award and the Melbourne Prize for Literature. Le's work has been published in modern classics series, and is widely anthologized and taught. He lives in Melbourne.",
+      "label": "The Jerilderie Letter",
+      "title": "Letter written by Joe Byrne at the dictation of Ned Kelly February 1879",
+      "maker": "Ned KELLY (1854–1880)",
+      "material": "56 + 2 pages, paper",
+      "credit": "MS13361<br/>Anonymous donation 2000",
+      "detail": "Ned Kelly argued that racial and class prejudice underpinned his notoriety in a 56-page statement now known as the Jerilderie Letter. Kelly dictated the letter to gang member Joe Byrne and attempted to have it published. It describes his version of the events regarding the murder that ultimately led to his hanging. While asserting self-defence, Kelly also details the injustices endured by his family, impoverished Irish farmers, at the hands of both the police and the wealthy ‘squattocracy,’ who controlled prime farming land and parts of the government. The letter is full of ringing phrases but also expressions of violence. Public interest in Kelly’s account has risen steadily after it was published in full in the late 1940s.",
+      "alt": "A 3D model representing the Jerilderie letter, the model is made up of 28 sheets of paper suspended in mid-air. Each sheet contains cursive text transcribing the words of Ned Kelly. The paper has a slightly off-white colour and a parchment style texture.",
+      "torusPosition": 0.6,
+      "onboardIcon": "Onboard-Letter.svg",
+      "sort": 2,
+      "cameraAnimation": {
+        "type": "built-in",
+        "focalLengthScale": 1.0
+      },
+      "brightness": 1.0,
+      "transform": {
+        "scale": 1.0
+      },
+      "models": [
+        {
+          "file": "Letter",
+          "files": {
+            "Low": "/slv-a-mouthful-of-dust/media/3d-models/174399507eff4/letter.low.glb",
+            "Viewer": "/slv-a-mouthful-of-dust/media/3d-models/175008306b6bf/letter.viewer.glb"
+          },
+          "textures": {
+            "baseColor": "slv-a-mouthful-of-dust/media/images/17436443265a9/digitised-letter-v2-halfres-p02-1.webp"
+          },
+          "rotation": { "x": 0, "y": 0, "z": 0 },
+          "position": { "x": 0.1, "y": -0.1, "z": 0 },
+          "scale": 100.0,
+          "view": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": 0, "y": 0, "z": 0 },
+            "scale": 100.0
+          }
+        }
+      ],
+      "pages": {
+        "Paper_61": {
+          "front": {
+            "low": "slv-a-mouthful-of-dust/media/images/175039107719b/digitised-letter-v2-halfres-p01.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/175203652191c/letter-p01.webp"
+          },
+          "back": {
+            "low": "slv-a-mouthful-of-dust/media/images/175039112a3ca/digitised-letter-v2-halfres-p02-1.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/1752036528000/letter-p02.webp"
+          }
+        },
+        "Paper_62": {
+          "front": {
+            "low": "slv-a-mouthful-of-dust/media/images/175039114b0e1/digitised-letter-v2-halfres-p03.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/17520365283bd/letter-p03.webp"
+          },
+          "back": {
+            "low": "slv-a-mouthful-of-dust/media/images/175039118ec0d/digitised-letter-v2-halfres-p04.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/175203652d210/letter-p04.webp"
+          }
+        },
+        "Paper_63": {
+          "front": {
+            "low": "slv-a-mouthful-of-dust/media/images/175073202752c/letter-sm-p05.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/175203652610b/letter-p05.webp"
+          },
+          "back": {
+            "low": "slv-a-mouthful-of-dust/media/images/1750732026daa/letter-sm-p06.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/175203652cfe6/letter-p06.webp"
+          }
+        },
+        "Paper_7": {
+          "front": {
+            "low": "slv-a-mouthful-of-dust/media/images/175073225322a/letter-sm-p07.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/1752036520371/letter-p07.webp"
+          },
+          "back": {
+            "low": "slv-a-mouthful-of-dust/media/images/175073225800b/letter-sm-p08.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/1752036529188/letter-p08.webp"
+          }
+        },
+        "Paper_71": {
+          "front": {
+            "low": "slv-a-mouthful-of-dust/media/images/175073225cbb7/letter-sm-p09.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/175203652f699/letter-p09.webp"
+          },
+          "back": {
+            "low": "slv-a-mouthful-of-dust/media/images/1750732251206/letter-sm-p10.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/175203652b1e8/letter-p10.webp"
+          }
+        },
+        "Paper_72": {
+          "front": {
+            "low": "slv-a-mouthful-of-dust/media/images/175073225acda/letter-sm-p11.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/1752482081744/letter-p11.webp"
+          },
+          "back": {
+            "low": "slv-a-mouthful-of-dust/media/images/1750732255143/letter-sm-p12.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/1752482085d5f/letter-p12.webp"
+          }
+        },
+        "Paper_73": {
+          "front": {
+            "low": "slv-a-mouthful-of-dust/media/images/175073249810a/letter-sm-p13.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/1752482086d20/letter-p13.webp"
+          },
+          "back": {
+            "low": "slv-a-mouthful-of-dust/media/images/175073249cf2b/letter-sm-p14.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/1752482087467/letter-p14.webp"
+          }
+        },
+        "Paper_42": {
+          "front": {
+            "low": "slv-a-mouthful-of-dust/media/images/175073249951c/letter-sm-p15.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/1752482088118/letter-p15.webp"
+          },
+          "back": {
+            "low": "slv-a-mouthful-of-dust/media/images/1750732496891/letter-sm-p16.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/175248208b515/letter-p16.webp"
+          }
+        },
+        "Paper_43-CU1": {
+          "front": {
+            "low": "slv-a-mouthful-of-dust/media/images/175073249f68b/letter-sm-p17.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/175248208fb04/letter-p17.webp"
+          },
+          "back": {
+            "low": "slv-a-mouthful-of-dust/media/images/175073249cc02/letter-sm-p18.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/1752482087aec/letter-p18.webp"
+          }
+        },
+        "Paper_5": {
+          "front": {
+            "low": "slv-a-mouthful-of-dust/media/images/17507445300b6/letter-sm-p19.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/175248208812b/letter-p19.webp"
+          },
+          "back": {
+            "low": "slv-a-mouthful-of-dust/media/images/1750744538c41/letter-sm-p20.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/175248208507f/letter-p20.webp"
+          }
+        },
+        "Paper_51": {
+          "front": {
+            "low": "slv-a-mouthful-of-dust/media/images/17507445316d2/letter-sm-p21.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/17524830468f5/letter-p21.webp"
+          },
+          "back": {
+            "low": "slv-a-mouthful-of-dust/media/images/17507445384d1/letter-sm-p22.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/17524830424da/letter-p22.webp"
+          }
+        },
+        "Paper_52-CU3": {
+          "front": {
+            "low": "slv-a-mouthful-of-dust/media/images/1750744974c56/letter-sm-p23.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/1752483046bc3/letter-p23.webp"
+          },
+          "back": {
+            "low": "slv-a-mouthful-of-dust/media/images/175074497b641/letter-sm-p24.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/175248304f82f/letter-p24.webp"
+          }
+        },
+        "Paper_53": {
+          "front": {
+            "low": "slv-a-mouthful-of-dust/media/images/175074497c9ba/letter-sm-p25.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/175248304281f/letter-p25.webp"
+          },
+          "back": {
+            "low": "slv-a-mouthful-of-dust/media/images/175074497f45b/letter-sm-p26.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/175248304c75c/letter-p26.webp"
+          }
+        },
+        "Paper_6": {
+          "front": {
+            "low": "slv-a-mouthful-of-dust/media/images/1750744975b51/letter-sm-p27.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/1752483046d0c/letter-p27.webp"
+          },
+          "back": {
+            "low": "slv-a-mouthful-of-dust/media/images/175074497f7bb/letter-sm-p28.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/1752483045962/letter-p28.webp"
+          }
+        },
+        "Paper_23": {
+          "front": {
+            "low": "slv-a-mouthful-of-dust/media/images/175074497ffb9/letter-sm-p29.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/1752483041afd/letter-p29.webp"
+          },
+          "back": {
+            "low": "slv-a-mouthful-of-dust/media/images/175074497d7c3/letter-sm-p30.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/175248304d5a0/letter-p30.webp"
+          }
+        },
+        "Paper_3-CU3": {
+          "front": {
+            "low": "slv-a-mouthful-of-dust/media/images/175074569459d/letter-sm-p31.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/1752483329795/letter-p31.webp"
+          },
+          "back": {
+            "low": "slv-a-mouthful-of-dust/media/images/1750745690631/letter-sm-p32.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/175248332302d/letter-p32.webp"
+          }
+        },
+        "Paper_31-CU2": {
+          "front": {
+            "low": "slv-a-mouthful-of-dust/media/images/175074569c874/letter-sm-p33.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/175248332a731/letter-p33.webp"
+          },
+          "back": {
+            "low": "slv-a-mouthful-of-dust/media/images/1750745696cd2/letter-sm-p34.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/1752483328cab/letter-p34.webp"
+          }
+        },
+        "Paper_32": {
+          "front": {
+            "low": "slv-a-mouthful-of-dust/media/images/175074569819f/letter-sm-p35.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/175248332de59/letter-p35.webp"
+          },
+          "back": {
+            "low": "slv-a-mouthful-of-dust/media/images/17507456971e3/letter-sm-p36.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/175248332c40a/letter-p36.webp"
+          }
+        },
+        "Paper_33": {
+          "front": {
+            "low": "slv-a-mouthful-of-dust/media/images/17507456993e1/letter-sm-p37.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/175248332658d/letter-p37.webp"
+          },
+          "back": {
+            "low": "slv-a-mouthful-of-dust/media/images/175074569cf1b/letter-sm-p38.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/175248332470f/letter-p38.webp"
+          }
+        },
+        "Paper_4": {
+          "front": {
+            "low": "slv-a-mouthful-of-dust/media/images/17507456964f4/letter-sm-p39.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/1752483326722/letter-p39.webp"
+          },
+          "back": {
+            "low": "slv-a-mouthful-of-dust/media/images/1750745697d05/letter-sm-p40.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/175248332021e/letter-p40.webp"
+          }
+        },
+        "Paper_41": {
+          "front": {
+            "low": "slv-a-mouthful-of-dust/media/images/175074612e781/letter-sm-p41.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/175248794dc06/letter-p41.webp"
+          },
+          "back": {
+            "low": "slv-a-mouthful-of-dust/media/images/175074612fb8f/letter-sm-p42.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/175248794feaa/letter-p42.webp"
+          }
+        },
+        "Paper_1": {
+          "front": {
+            "low": "slv-a-mouthful-of-dust/media/images/17507461257cc/letter-sm-p43.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/1752487936bf6/letter-p43.webp"
+          },
+          "back": {
+            "low": "slv-a-mouthful-of-dust/media/images/175074612f8a0/letter-sm-p44.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/175248794c1db/letter-p44.webp"
+          }
+        },
+        "Paper_11": {
+          "front": {
+            "low": "slv-a-mouthful-of-dust/media/images/17507461287ae/letter-sm-p45.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/175248793ae88/letter-p45.webp"
+          },
+          "back": {
+            "low": "slv-a-mouthful-of-dust/media/images/1750746122099/letter-sm-p46.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/175248793f8f4/letter-p46.webp"
+          }
+        },
+        "Paper_12": {
+          "front": {
+            "low": "slv-a-mouthful-of-dust/media/images/175074612d7b0/letter-sm-p47.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/175248793a371/letter-p47.webp"
+          },
+          "back": {
+            "low": "slv-a-mouthful-of-dust/media/images/175074612cf12/letter-sm-p48.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/1752487946162/letter-p48.webp"
+          }
+        },
+        "Paper_13": {
+          "front": {
+            "low": "slv-a-mouthful-of-dust/media/images/17507461296d6/letter-sm-p49.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/1752487948279/letter-p49.webp"
+          },
+          "back": {
+            "low": "slv-a-mouthful-of-dust/media/images/1750746126bb1/letter-sm-p50.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/175248793770b/letter-p50.webp"
+          }
+        },
+        "Paper_2": {
+          "front": {
+            "low": "slv-a-mouthful-of-dust/media/images/1750746453cad/letter-sm-p51.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/17524881548b4/letter-p51.webp"
+          },
+          "back": {
+            "low": "slv-a-mouthful-of-dust/media/images/175074644f9a5/letter-sm-p52.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/1752488154165/letter-p52.webp"
+          }
+        },
+        "Paper_21": {
+          "front": {
+            "low": "slv-a-mouthful-of-dust/media/images/1750746445a84/letter-sm-p53.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/1752488155c48/letter-p53.webp"
+          },
+          "back": {
+            "low": "slv-a-mouthful-of-dust/media/images/175074645cb3f/letter-sm-p54.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/1752488151700/letter-p54.webp"
+          }
+        },
+        "Paper_22": {
+          "front": {
+            "low": "slv-a-mouthful-of-dust/media/images/175074644b525/letter-sm-p55.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/1752488168f37/letter-p55.webp"
+          },
+          "back": {
+            "low": "slv-a-mouthful-of-dust/media/images/175074644d585/letter-sm-p56.webp",
+            "high": "slv-a-mouthful-of-dust/media/images/1752488157e08/letter-p56.webp"
+          }
+        }
+      },
+      "writing": {
+        "title": "Jerilderie",
+        "copyFile": "letter"
+      },
+      "audioTrack": "act3Letter",
+      "audioTransitionTrack": "act3LetterTransition",
+      "captions": "letter.srt",
+      "lighting": {
+        "lightingKeyframes": [
+          {
+            "note": "initial",
+            "time": 0,
+            "rotation": { "x": 40, "y": 100, "z": -38 },
+            "brightness": 0.6
+          }
+        ]
+      }
+    },
+    "mask": {
+      "author": "Grace Chan",
+      "bio": "Grace Chan is an award-winning speculative fiction writer. She writes about brains, minds, and space. Her critically acclaimed debut novel, <span class='italic'>Every Version of You</span>, is about staying in love after mind-uploading into virtual reality. It won the NSW Premier’s Literary Awards People’s Choice Award and was shortlisted for <span class='italic'>The Age</span> Book of the Year and longlisted for the Stella Prize and the Indie Book Awards. Her short fiction can be found in <span class='italic'>Clarkesworld</span>, <span class='italic'>Lightspeed</span>, <span class='italic'>Going Down Swinging</span>, and many other places. Grace was born in Malaysia and lives in Melbourne. In her other life, she works as a psychiatrist.",
+      "authorLink": "https://gracechanwrites.com/",
+      "label": "The Death Mask",
+      "title": "Death mask of Ned Kelly c. 1880",
+      "maker": "Maximilian Ludwig Kreitmayer (1830–1906)",
+      "material": "plaster or similar compound",
+      "accNo": "H2001.241",
+      "catLink": "https://find.slv.vic.gov.au/permalink/61SLV_INST/1sev8ar/alma9917779973607636",
+      "credit": "Gift of the School of Historical Studies, Monash University, 2001",
+      "detail": "This mask is one of several taken from the cast officially made shortly after Ned Kelly was hanged at Melbourne Gaol on 11 November 1880, though only five are known to exist today. The casting was by Maximillan Ludwig Kreitmayer, an anatomical modeller and owner of a waxworks business in Melbourne. Kreitmayer catered to enthusiasts of the then-discredited pseudoscience of phrenology, which involved analysing character traits based on the shape of the human head. In the days following Kelly’s execution and decapitation, his death mask was put on public display at Kreitmayer’s. In the Herald A. S. Hamilton, a phrenologist and critic of capital punishment, suggested that the mask revealed Kelly’s ‘active hope, self-esteem, and firmness.’",
+      "alt": "A 3D scanned model of the death mask of Ned Kelly. Kelly’s eyes appear shut and he has a neutral expression on his face. His head is slightly angled to his right. With the appearance and texture of plaster, the mask is a cast of Kelly’s entire head. The detail of eyebrows and eyelashes can be seen in the cast, otherwise Kelly appears bald. The base of the mask has a small hole in it.",
+      "writing": {
+        "title": "Ned Kelly's Death Mask",
+        "copyFile": "deathmask"
+      },
+      "defaultZoom": 50,
+      "onboardIcon": "Onboard-DeathMask.svg",
+      "torusPosition": 0.8,
+      "sort": 3,
+      "cameraAnimation": {
+        "file": "https://d38p9xpr4rdpkc.cloudfront.net/slv-a-mouthful-of-dust/media/3d-models/174401647a2fb/camera-animation__mask.glb",
+        "type": "adaptive-fov"
+      },
+      "brightness": 0.6,
+      "roughness": 10.0,
+      "transform": {
+        "scale": 100.0
+      },
+      "models": [
+        {
+          "file": "DeathMask",
+          "files": {
+            "High": "/slv-a-mouthful-of-dust/media/3d-models/1743996417f5f/deathmask.high.glb",
+            "Med": "/slv-a-mouthful-of-dust/media/3d-models/17439964175f0/deathmask.med.glb",
+            "Low": "/slv-a-mouthful-of-dust/media/3d-models/174399641008c/deathmask.low.glb"
+          },
+          "textures": {
+            "baseColor": "slv-a-mouthful-of-dust/media/images/175309547cfd1/deathmask.high.75.jpg",
+            "normal": {
+              "shared": "slv-a-mouthful-of-dust/media/images/1730764453419/deathmask.n.jpg",
+              "quality": {
+                "Tiny": "slv-a-mouthful-of-dust/media/images/1730841380012/deathmask.tiny.n.jpg",
+                "Low": "slv-a-mouthful-of-dust/media/images/1753097132107/deathmask.low.n.jpg",
+                "Med": "slv-a-mouthful-of-dust/media/images/1753108357db4/deathmask.med.n.jpg",
+                "High": "slv-a-mouthful-of-dust/media/images/1753087881754/deathmask.high.n.jpg",
+                "Ultra": "slv-a-mouthful-of-dust/media/images/1741067278960/deathmask.ultra.n.jpg"
+              }
+            },
+            "roughness": "slv-a-mouthful-of-dust/media/images/1734271838577/deathmask.r.jpg",
+            "ao2": "slv-a-mouthful-of-dust/media/images/175307273a27e/deathmask.ultra.ao.jpg"
+          },
+          "position": {
+            "x": 0,
+            "y": -0.13,
+            "z": 0
+          },
+          "rotation": {
+            "x": -7,
+            "y": 9,
+            "z": 3
+          },
+          "scale": 1.0,
+          "view": {
+            "position": {
+              "x": -0.02,
+              "y": -0.13,
+              "z": 0
+            },
+            "rotation": {
+              "x": -5,
+              "y": -9,
+              "z": 0
+            },
+            "scale": 1.0
+          }
+        }
+      ],
+      "cameraCollisionMesh": {
+        "file": "DeathMask",
+        "transform": {
+          "position": { "x": 0, "y": 0, "z": 0 },
+          "rotation": { "x": 0, "y": 0, "z": 0 },
+          "scale": 0.01
+        }
+      },
+      "audioTrack": "act3Mask",
+      "audioTransitionTrack": "act3MaskTransition",
+      "captions": "deathmask.srt",
+      "lighting": {
+        "manual": {
+          "rotation": { "x": 24, "y": -13, "z": 71 },
+          "brightness": 0.5
+        },
+        "lightingKeyframes": [
+          {
+            "note": "initial",
+            "time": 0,
+            "rotation": { "x": -75, "y": 60, "z": 126 },
+            "brightness": 0.5
+          },
+
+          {
+            "note": "hold",
+            "time": 43.7780192096253,
+            "rotation": { "x": -75, "y": 60, "z": 126 },
+            "brightness": 0.5
+          },
+
+          {
+            "note": "activate",
+            "time": 46.078230940617146,
+            "rotation": { "x": -75, "y": 60, "z": -100 },
+            "brightness": 0.5
+          },
+
+          {
+            "note": "hold",
+            "time": 53.69165256299098,
+            "rotation": { "x": -75, "y": 60, "z": -360 },
+            "brightness": 0.5
+          },
+
+          {
+            "note": "inside",
+            "time": 53.69165256299099,
+            "rotation": { "x": 22, "y": 137, "z": -142 },
+            "brightness": 0.175
+          },
+
+          {
+            "note": "inside",
+            "time": 69.48998160390126,
+            "rotation": { "x": 22, "y": 137, "z": -142 },
+            "brightness": 0.175
+          },
+
+          {
+            "note": "inside",
+            "time": 69.60731493723459,
+            "rotation": { "x": 46, "y": 113, "z": 9 },
+            "brightness": 0.5
+          },
+
+          {
+            "note": "bottom",
+            "time": 134.1337224559329,
+            "rotation": { "x": 46, "y": 113, "z": 9 },
+            "brightness": 0.5
+          },
+
+          {
+            "note": "front",
+            "time": 148.0643891226,
+            "rotation": { "x": 51, "y": 144, "z": -235 },
+            "brightness": 0.5
+          },
+
+          {
+            "note": "before enter",
+            "time": 198.3716738125494,
+            "rotation": { "x": 51, "y": 144, "z": -235 },
+            "brightness": 0.5
+          },
+
+          {
+            "note": "after enter",
+            "time": 198.3716738125495,
+            "rotation": { "x": 51, "y": 360, "z": -235 },
+            "brightness": 0.175
+          },
+
+          {
+            "note": "before exit",
+            "time": 273.2931387598001,
+            "rotation": { "x": 51, "y": -720, "z": -235 },
+            "brightness": 0.175
+          },
+
+          {
+            "note": "after exit",
+            "time": 273.2931387598002,
+            "rotation": { "x": 51, "y": 144, "z": -235 },
+            "brightness": 0.5
+          },
+
+          {
+            "note": "hold",
+            "time": 316.42073328103515,
+            "rotation": { "x": 51, "y": 144, "z": -235 },
+            "brightness": 0.5
+          },
+
+          {
+            "note": "rotate move",
+            "time": 318.77806661436847,
+            "rotation": { "x": -31, "y": 93, "z": -181 },
+            "brightness": 0.5
+          },
+
+          {
+            "note": "hold",
+            "time": 325.22379561521416,
+            "rotation": { "x": -31, "y": 93, "z": -181 },
+            "brightness": 0.5
+          },
+
+          {
+            "note": "rotate move - dent",
+            "time": 330.03446228188085,
+            "rotation": { "x": 11, "y": 93, "z": -226 },
+            "brightness": 0.5
+          },
+
+          {
+            "note": "hold",
+            "time": 340.83063640714863,
+            "rotation": { "x": 11, "y": 93, "z": -226 },
+            "brightness": 0.5
+          },
+
+          {
+            "note": "neck front",
+            "time": 343.6573030738152,
+            "rotation": { "x": 38, "y": 80, "z": -164 },
+            "brightness": 0.5
+          },
+
+          {
+            "note": "neck front - hold",
+            "time": 356.8785710069532,
+            "rotation": { "x": 38, "y": 80, "z": -164 },
+            "brightness": 0.5
+          },
+
+          {
+            "note": "spine",
+            "time": 357.4465105123841,
+            "rotation": { "x": -162, "y": 157, "z": -18 },
+            "brightness": 0.5
+          },
+
+          {
+            "note": "spine - hold",
+            "time": 359.7483882968393,
+            "rotation": { "x": -162, "y": 157, "z": -18 },
+            "brightness": 0.5
+          },
+
+          {
+            "note": "spine - fade up",
+            "time": 362.5406351807421,
+            "rotation": { "x": -162, "y": 157, "z": -18 },
+            "brightness": 0.5
+          },
+
+          {
+            "note": "back to initial",
+            "time": 373.1502636284814,
+            "rotation": { "x": -75, "y": 60, "z": 126 },
+            "brightness": 0.5
+          },
+
+          {
+            "note": "front",
+            "time": -1,
+            "rotation": { "x": 22, "y": 137, "z": -142 },
+            "brightness": 0.5
+          }
+        ]
+      }
+    },
+    "armour": {
+      "author": "Wesley Enoch",
+      "bio": "Wesley Enoch is the former Artistic Director at the Sydney Festival. Wesley has written and directed iconic Indigenous productions <span class='italic'>The 7 Stages of Grieving</span>, <span class='italic'>Black Medea</span> and <span class='italic'>The Story of The Miracles at Cookie’s Table</span>. He has directed productions of <span class='italic'>The Sapphires</span>, <span class='italic'>Black Diggers</span>, <span class='italic'>I Am Eora</span>, <span class='italic'>The Man from Mukinupin</span>, <span class='italic'>Yibiyung</span>, <span class='italic'>A Raisin in The Sun</span>, and <span class='italic'>The Visitors</span>. Wesley is the current Professor of Indigenous Practice, Creative Industries QUT, the Co-Chair of Annamila First Nations Foundation, the Deputy Chair of Creative Australia and the Patrick White Fellow for the Sydney Theatre Company.",
+      "authorLink": "https://en.wikipedia.org/wiki/Wesley_Enoch",
+      "label": "The Armour",
+      "title": "Armour worn by Ned Kelly at the siege of Glenrowan on 28 June 1880",
+      "maker": "Unknown maker",
+      "material": "Steel, 44kg",
+      "accNo": "H20171",
+      "catLink": "https://find.slv.vic.gov.au/permalink/61SLV_INST/1sev8ar/alma9917399813607636",
+      "detail": "Right shoulder plate purchased by State Library Victoria with funds from the Sundberg Bequest and the Department of Communications, Information Technology and the Arts in 2001; Left shoulder plate on loan from Museums Victoria<br/><br/>Ned Kelly’s iron armour, though worn only once, is a defining aspect of his story and it was presented at his trial in court. Its origins, purpose, and unique design contribute to its iconic cultural significance. During their last stand with the police at Glenrowan, all four members of the Kelly gang—Ned, his brother Dan, and their friends Joe Byrne and Steve Hart—wore armour. In the year before the siege they began constructing the suits from the thick metal parts of ploughs; some were bought, others were offered by sympathetic farmers and a few were stolen. Under his armour Ned wore the green silk sash he received as a child for rescuing a boy from drowning.",
+      "alt": "A 3D scanned model of Ned Kelly’s armour. It is comprised of separate pieces of head and body armour. The armour has a dark silver appearance with a layer of red rust throughout the piece. The helmet is mostly round with a thin horizontal slit for Kelly’s eyes, and bullet impact dents can be seen. The body armour are long curved sheets of metal, the inside of one plate has the words “D. K” and “D. KELLY” written in brushstroke, with the words “POLICE EXHIBITION” stamped on top in red stencil. Holes are present across the armour that would have been used to keep the armour together when being worn.",
+      "torusPosition": 0,
+      "onboardIcon": "Onboard-Helmet.svg",
+      "sort": 4,
+      "brightness": 0.35,
+      "transform": {
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "position": { "x": -5, "y": 0, "z": 0 },
+        "scale": 100.0
+      },
+      "cameraAnimation": {
+        "file": "https://d38p9xpr4rdpkc.cloudfront.net/slv-a-mouthful-of-dust/media/3d-models/174401675fea4/camera-animation__armour.glb",
+        "type": "multi-object"
+      },
+      "cameraCollisionMesh": {
+        "file": "Armour",
+        "scale": 1
+      },
+      "models": [
+        {
+          "file": "Helmet",
+          "files": {
+            "High": "/slv-a-mouthful-of-dust/media/3d-models/1743996768ffd/helmet.high.glb",
+            "Med": "/slv-a-mouthful-of-dust/media/3d-models/17439967672e4/helmet.med.glb",
+            "Low": "/slv-a-mouthful-of-dust/media/3d-models/1743996763928/helmet.low.glb"
+          },
+          "textures": {
+            "baseColor": "slv-a-mouthful-of-dust/media/images/173120231a308/helmet.jpg",
+            "normal": {
+              "shared": "slv-a-mouthful-of-dust/media/images/173120968a6e0/helmet.n.jpg",
+              "quality": {
+                "Low": "slv-a-mouthful-of-dust/media/images/175310655cdfd/helmet.low.n.jpg",
+                "Med": "slv-a-mouthful-of-dust/media/images/175310631e9db/helmet.med.n.jpg",
+                "High": "slv-a-mouthful-of-dust/media/images/175310120dab2/helmet.high.n.jpg"
+              }
+            },
+            "ao": "slv-a-mouthful-of-dust/media/images/173120970821f/helmet.ao.jpg",
+            "metallic": "slv-a-mouthful-of-dust/media/images/17312097468d0/helmet.m.jpg",
+            "roughness": "slv-a-mouthful-of-dust/media/images/173120979fe5a/helmet.r.jpg"
+          },
+          "rotation": { "x": 0, "y": 0, "z": 0 },
+          "position": { "x": 0, "y": 0, "z": 0 },
+          "scale": 1.0,
+
+          "view": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "position": { "x": 0, "y": 0, "z": 0 }
+          }
+        },
+        {
+          "file": "Back",
+          "files": {
+            "High": "/slv-a-mouthful-of-dust/media/3d-models/174399604a45c/back.high.glb",
+            "Med": "/slv-a-mouthful-of-dust/media/3d-models/1743996127695/back.med.glb",
+            "Low": "/slv-a-mouthful-of-dust/media/3d-models/174399612762e/back.low.glb"
+          },
+          "textures": {
+            "baseColor": "slv-a-mouthful-of-dust/media/images/17312832854dc/back.jpg",
+            "normal": {
+              "shared": "slv-a-mouthful-of-dust/media/images/1731283596698/back.n.jpg",
+              "quality": {
+                "Low": "slv-a-mouthful-of-dust/media/images/17531392942c6/back.low.n.jpg",
+                "Med": "slv-a-mouthful-of-dust/media/images/175313953142c/back.med.n.jpg",
+                "High": "slv-a-mouthful-of-dust/media/images/1753139293f71/back.high.n.jpg"
+              }
+            },
+            "ao": "slv-a-mouthful-of-dust/media/images/1731283337d43/back.ao.jpg",
+            "metallic": "slv-a-mouthful-of-dust/media/images/1731283560bda/back.m.jpg",
+            "roughness": "slv-a-mouthful-of-dust/media/images/173128365ffe6/back.r.jpg"
+          },
+          "rotation": { "x": 0, "y": 0, "z": 0 },
+          "position": { "x": 15, "y": 35, "z": 45 },
+          "view": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
+          }
+        },
+        {
+          "file": "Front",
+          "files": {
+            "High": "/slv-a-mouthful-of-dust/media/3d-models/1743996485300/front.high.glb",
+            "Med": "/slv-a-mouthful-of-dust/media/3d-models/17439964882e5/front.med.glb",
+            "Low": "/slv-a-mouthful-of-dust/media/3d-models/1743996484072/front.low.glb"
+          },
+          "textures": {
+            "baseColor": "slv-a-mouthful-of-dust/media/images/173127867a8e3/front.jpg",
+            "normal": {
+              "shared": "slv-a-mouthful-of-dust/media/images/173127903ae6e/front.n.jpg",
+              "quality": {
+                "Low": "slv-a-mouthful-of-dust/media/images/1753110191309/front.low.n.jpg",
+                "Med": "slv-a-mouthful-of-dust/media/images/1753110069e36/front.med.n.jpg",
+                "High": "slv-a-mouthful-of-dust/media/images/17531097217b9/front.high.n.jpg"
+              }
+            },
+            "ao": "slv-a-mouthful-of-dust/media/images/1731278896260/front.ao.jpg",
+            "metallic": "slv-a-mouthful-of-dust/media/images/173127901e49f/front.m.jpg",
+            "roughness": "slv-a-mouthful-of-dust/media/images/173127906dc12/front.r.jpg"
+          },
+          "rotation": { "x": 190, "y": 180, "z": 30 },
+          "position": { "x": 15, "y": -20, "z": 5 },
+          "view": {
+            "rotation": {
+              "x": -21,
+              "y": -108,
+              "z": 110
+            },
+            "position": {
+              "x": -3.1,
+              "y": -19.7,
+              "z": -14.1
+            }
+          }
+        },
+        {
+          "file": "FrontSkirt",
+          "files": {
+            "High": "/slv-a-mouthful-of-dust/media/3d-models/1743996563470/frontskirt.high.glb",
+            "Med": "/slv-a-mouthful-of-dust/media/3d-models/174399656132c/frontskirt.med.glb",
+            "Low": "/slv-a-mouthful-of-dust/media/3d-models/1743996565108/frontskirt.low.glb"
+          },
+          "textures": {
+            "baseColor": "slv-a-mouthful-of-dust/media/images/1731283972d6f/frontskirt.jpg",
+            "normal": {
+              "shared": "slv-a-mouthful-of-dust/media/images/1731284210155/frontskirt.n.jpg",
+              "quality": {
+                "Low": "slv-a-mouthful-of-dust/media/images/1753111057d99/frontskirt.low.n.jpg",
+                "Med": "slv-a-mouthful-of-dust/media/images/175311090c029/frontskirt.med.n.jpg",
+                "High": "slv-a-mouthful-of-dust/media/images/1753110717ed9/frontskirt.high.n.jpg"
+              }
+            },
+            "ao": "slv-a-mouthful-of-dust/media/images/173128417ffe0/frontskirt.ao.jpg",
+            "metallic": "slv-a-mouthful-of-dust/media/images/173128420f781/frontskirt.m.jpg",
+            "roughness": "slv-a-mouthful-of-dust/media/images/173128423ecc7/frontskirt.r.jpg"
+          },
+          "rotation": { "x": 190, "y": 180, "z": 30 },
+          "position": { "x": 15, "y": -20, "z": 5 },
+          "view": {
+            "rotation": {
+              "x": -24,
+              "y": -120,
+              "z": 84
+            },
+            "position": {
+              "x": -6.5,
+              "y": -21,
+              "z": -9.5
+            }
+          }
+        },
+        {
+          "file": "ShoulderL",
+          "files": {
+            "High": "/slv-a-mouthful-of-dust/media/3d-models/174399663606d/shoulderl.high.glb",
+            "Med": "/slv-a-mouthful-of-dust/media/3d-models/1743996639cf7/shoulderl.med.glb",
+            "Low": "/slv-a-mouthful-of-dust/media/3d-models/174399663f122/shoulderl.low.glb"
+          },
+          "textures": {
+            "baseColor": "slv-a-mouthful-of-dust/media/images/173128226684b/shoulderl.jpg",
+            "normal": {
+              "shared": "slv-a-mouthful-of-dust/media/images/17312825023a2/shoulderl.n.jpg",
+              "quality": {
+                "Low": "slv-a-mouthful-of-dust/media/images/175314054b29d/shoulderl.low.n.jpg",
+                "Med": "slv-a-mouthful-of-dust/media/images/1753140542a8c/shoulderl.med.n.jpg",
+                "High": "slv-a-mouthful-of-dust/media/images/175314054e5ab/shoulderl.high.n.jpg"
+              }
+            },
+            "ao": "slv-a-mouthful-of-dust/media/images/173128233eea6/shoulderl.ao.jpg",
+            "metallic": "slv-a-mouthful-of-dust/media/images/17312826784a8/shoulderl.m.jpg",
+            "roughness": "slv-a-mouthful-of-dust/media/images/1731282727359/shoulderl.r.jpg"
+          },
+          "rotation": { "x": 45, "y": 30, "z": -30 },
+          "position": { "x": -35, "y": 0, "z": 20 },
+          "view": {
+            "rotation": {
+              "x": 142,
+              "y": 4,
+              "z": -52
+            },
+            "position": {
+              "x": -33.8,
+              "y": 4.9,
+              "z": -0.6
+            }
+          }
+        },
+        {
+          "file": "ShoulderR",
+          "files": {
+            "High": "/slv-a-mouthful-of-dust/media/3d-models/174399671b0e7/shoulderr.high.glb",
+            "Med": "/slv-a-mouthful-of-dust/media/3d-models/1743996711e7c/shoulderr.med.glb",
+            "Low": "/slv-a-mouthful-of-dust/media/3d-models/174399671e07d/shoulderr.low.glb"
+          },
+          "textures": {
+            "baseColor": "slv-a-mouthful-of-dust/media/images/1731282813e35/shoulderr.jpg",
+            "normal": {
+              "shared": "slv-a-mouthful-of-dust/media/images/1731283178440/shoulderl.n.jpg",
+              "quality": {
+                "Low": "slv-a-mouthful-of-dust/media/images/175314256ebd0/shoulderr.low.n.jpg",
+                "Med": "slv-a-mouthful-of-dust/media/images/1753142563fdc/shoulderr.med.n.jpg",
+                "High": "slv-a-mouthful-of-dust/media/images/17531425602a1/shoulderr.high.n.jpg"
+              }
+            },
+            "ao": "slv-a-mouthful-of-dust/media/images/1731282882f7f/shoulderr.ao.jpg",
+            "metallic": "slv-a-mouthful-of-dust/media/images/1731282944e63/shoulderr.m.jpg",
+            "roughness": "slv-a-mouthful-of-dust/media/images/173128309eaff/shoulderr.r.jpg"
+          },
+          "rotation": { "x": 45, "y": -135, "z": -135 },
+          "position": { "x": 70, "y": -6, "z": 20 },
+          "view": {
+            "rotation": {
+              "x": -55,
+              "y": 70,
+              "z": 95
+            },
+            "position": {
+              "x": 31.4,
+              "y": 30.1,
+              "z": -13.5
+            }
+          }
+        }
+      ],
+      "writing": {
+        "title": "How to see the world: a reflection on the armour of Ned Kelly",
+        "copyFile": "armour"
+      },
+      "audioTrack": "act3Armour",
+      "audioTransitionTrack": "act3ArmourTransition",
+      "captions": "armour.srt",
+      "lighting": {
+        "manual": {
+          "rotation": { "x": 51, "y": 73, "z": 55 },
+          "brightness": 0.45
+        },
+        "lightingKeyframes": [
+          {
+            "note": "initial",
+            "time": 0,
+            "rotation": { "x": 0, "y": 120, "z": 0 },
+            "brightness": 0.45
+          },
+
+          {
+            "note": "hold frame",
+            "time": 8.725885220097908,
+            "rotation": { "x": 0, "y": 120, "z": 0 },
+            "brightness": 0.45
+          },
+
+          {
+            "note": "back of helmet",
+            "time": 18.510292677380647,
+            "rotation": { "x": 0, "y": 230, "z": 0 },
+            "brightness": 0.45
+          },
+
+          {
+            "note": "inside helmet",
+            "time": 27.434666666666664,
+            "rotation": { "x": 0, "y": 230, "z": 0 },
+            "brightness": 0.45
+          },
+
+          {
+            "note": "inside helmet",
+            "time": 27.434666666666665,
+            "rotation": { "x": 0, "y": -360, "z": -110 },
+            "brightness": 0.45
+          },
+
+          {
+            "note": "topside",
+            "time": 35.63458858365662,
+            "rotation": { "x": 13, "y": -58, "z": 241 },
+            "brightness": 0.45
+          },
+
+          {
+            "note": "armour front",
+            "time": 58.938838695876086,
+            "rotation": { "x": 42, "y": -66, "z": 206 },
+            "brightness": 0.45
+          },
+
+          {
+            "note": "armour back",
+            "time": 60.15845120148707,
+
+            "rotation": { "x": 35, "y": -73, "z": 122 },
+            "brightness": 0.45
+          },
+
+          {
+            "note": "armour back",
+            "time": 72.6801197773622,
+
+            "rotation": { "x": 35, "y": -73, "z": 122 },
+            "brightness": 0.45
+          },
+
+          {
+            "note": "armour back helmet",
+            "time": 77.06109849478163,
+
+            "rotation": { "x": -62, "y": -42, "z": 0 },
+            "brightness": 0.45
+          },
+
+          {
+            "note": "armour back helmet",
+            "time": 86.67633642158498,
+            "rotation": { "x": -62, "y": -188, "z": 0 },
+            "brightness": 0.45
+          },
+
+          {
+            "note": "armour back helmet - hold",
+            "time": 90.64216938983564,
+            "rotation": { "x": -62, "y": -188, "z": 0 },
+            "brightness": 0.45
+          },
+
+          {
+            "note": "armour helmet transition",
+            "time": 92.39083282760697,
+            "rotation": { "x": -27, "y": -24, "z": 38 },
+            "brightness": 0.45
+          },
+
+          {
+            "note": "outside armour",
+            "time": 107.72269485591583,
+            "rotation": { "x": 108, "y": -46, "z": 46 },
+            "brightness": 0.45
+          },
+
+          {
+            "note": "outside armour - hold",
+            "time": 116.50595979292517,
+            "rotation": { "x": 108, "y": -46, "z": 46 },
+            "brightness": 0.45
+          },
+
+          {
+            "note": "outside armour - back",
+            "time": 123.42907266361878,
+            "rotation": { "x": 31, "y": -38, "z": 155 },
+            "brightness": 0.45
+          },
+
+          {
+            "note": "outside armour - side",
+            "time": 134.59963423706944,
+            "rotation": { "x": 33, "y": -120, "z": 102 },
+            "brightness": 0.45
+          },
+
+          {
+            "note": "outside armour - front",
+            "time": 145.40062000180114,
+            "rotation": { "x": -31, "y": -80, "z": 102 },
+            "brightness": 0.45
+          },
+
+          {
+            "note": "outside armour - front",
+            "time": 154.42106033755897,
+            "rotation": { "x": 0, "y": 155, "z": 0 },
+            "brightness": 0.45
+          },
+
+          {
+            "note": "outside armour - top high",
+            "time": 160.9131983092501,
+            "rotation": { "x": -35, "y": 177, "z": 11 },
+            "brightness": 0.45
+          },
+
+          {
+            "note": "outside armour - close to back plate",
+            "time": 169.30283400665013,
+            "rotation": { "x": 22, "y": 133, "z": 11 },
+            "brightness": 0.45
+          },
+
+          {
+            "note": "outside armour - wrap around",
+            "time": 171.0615470568949,
+            "rotation": { "x": -2, "y": 135, "z": 18 },
+            "brightness": 0.45
+          },
+
+          {
+            "note": "outside armour - wrap around - hold",
+            "time": 177.76391840680713,
+            "rotation": { "x": -2, "y": 135, "z": 18 },
+            "brightness": 0.45
+          },
+
+          {
+            "note": "outside armour - wrap around - hold",
+            "time": 179.81989198612274,
+            "rotation": { "x": -144, "y": 113, "z": 18 },
+            "brightness": 0.45
+          },
+
+          {
+            "note": "outside armour - wrap around - hold",
+            "time": 180.18651285873293,
+            "rotation": { "x": -120, "y": 35, "z": 9 },
+            "brightness": 0.45
+          },
+
+          {
+            "note": "outside armour - wrap around - hold",
+            "time": 184.83788875722743,
+            "rotation": { "x": -150, "y": -4, "z": 15 },
+            "brightness": 0.45
+          },
+
+          {
+            "note": "outside armour - wrap around - hold",
+            "time": 187.0442601071397,
+            "rotation": { "x": -150, "y": -4, "z": 15 },
+            "brightness": 0.45
+          },
+
+          {
+            "note": "outside armour - wrap around - hold",
+            "time": 192.99702218033633,
+            "rotation": { "x": -204, "y": 49, "z": -89 },
+            "brightness": 0.45
+          },
+
+          {
+            "note": "outside armour - wrap around - end",
+            "time": 255.6663684292511,
+            "rotation": { "x": -204, "y": 49, "z": -89 },
+            "brightness": 0.45
+          },
+
+          {
+            "note": "outside armour - wrap around - hold",
+            "time": 263.4694308166622,
+            "rotation": { "x": 0, "y": 120, "z": 0 },
+            "brightness": 0.45
+          }
+        ]
+      }
+    }
+  }
+}

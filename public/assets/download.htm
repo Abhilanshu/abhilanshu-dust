@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Google Tag Manager -->
+    <script nonce="864b1354e2663241229b462ad5a2c231">
+      ;(function (w, d, s, l, i) {
+        w[l] = w[l] || []
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" })
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : ""
+        j.async = true
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl
+        f.parentNode.insertBefore(j, f)
+      })(window, document, "script", "dataLayer", "GTM-5FTVNW")
+    </script>
+    <!-- End Google Tag Manager -->
+    <link id="favicon-link" rel="icon" type="image/svg+xml" href="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+
+    <title>Mouthful of Dust - SLV</title>
+    <meta name="title" content="Mouthful of Dust" />
+    <meta name="description" content="A Ned Kelly Web Experience" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://www.slv.vic.gov.au/mouthful-of-dust"
+    />
+    <meta property="og:title" content="Mouthful of Dust" />
+    <meta
+      property="og:description"
+      content="Mouthful of Dust is cinematic web experience that features 3D scans of objects linked to Ned Kelly, Australia’s most notorious bushranger. Five acclaimed authors, working in fiction and non-fiction, offer new ways of thinking with these objects."
+    />
+    <meta
+      property="og:image"
+      content="https://d2xkbpwjh6kvh9.cloudfront.net/slv-a-mouthful-of-dust/media/images/174460393174f/mod-unfurl.jpg"
+    />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://www.slv.vic.gov.au/mouthful-of-dust"
+    />
+    <meta property="twitter:title" content="Mouthful of Dust" />
+    <meta
+      property="twitter:description"
+      content="Mouthful of Dust is cinematic web experience that features 3D scans of objects linked to Ned Kelly, Australia’s most notorious bushranger."
+    />
+    <meta
+      property="twitter:image"
+      content="https://d2xkbpwjh6kvh9.cloudfront.net/slv-a-mouthful-of-dust/media/images/174460393174f/mod-unfurl.jpg"
+    />
+
+    <style>
+      .cloaked {
+        display: none;
+      }
+    </style>
+    <script type="module" crossorigin src="/mouthful-of-dust/assets/index-B7vKO-L3.js"></script>
+    <link rel="stylesheet" crossorigin href="/mouthful-of-dust/assets/index-7Ha7skOb.css">
+  </head>
+  <body
+    style="background-color: black"
+    class="onboarding-start onboarding-active"
+  >
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-5FTVNW"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div
+      id="app-root"
+      role="application"
+      aria-label="Mouthful of Dust - A Ned Kelly web experience"
+    >
+      <audio id="audio-element" class="cloaked" crossorigin="anonymous">
+        <source
+          src="https://d38p9xpr4rdpkc.cloudfront.net/slv-a-mouthful-of-dust/media/audio/174410662d2e6/background.mp3"
+          type="audio/mp3"
+        />
+      </audio>
+      <div
+        id="sr-announcements"
+        aria-live="polite"
+        class="sro"
+        role="status"
+      ></div>
+      <div id="scene-loader" class="cloaked" role="presentation">
+        <div id="scene-loader-inner">
+          <div id="scene-loader-header"></div>
+          <div id="scene-loader-progress"></div>
+        </div>
+      </div>
+      <div id="splash-screen">
+        <div id="aoc-wrapper" class="cloaked">
+          <div id="aoc-inner" aria-label="Acknowledgement of Country">
+            <div id="aoc-copy" tabindex="-1" role="presentation">
+              <p>
+                State Library Victoria acknowledges the traditional lands of all
+                the Victorian Aboriginal clans, and their cultural practices and
+                knowledge systems.
+              </p>
+              <p>
+                We recognise that our collections hold traditional cultural
+                knowledge belonging to Indigenous communities in Victoria and
+                around the country. We support communities to protect the
+                integrity of this information, gathered from their Ancestors in
+                the colonial period.
+              </p>
+              <p>
+                We pay our respects to their Elders, past and present, who have
+                handed down these systems of practice to each new generation for
+                millennia.
+              </p>
+            </div>
+            <div id="aoc-action-tray" role="presentation">
+              <button
+                id="aoc-continue"
+                class="aoc-action ui-no-button"
+                aria-label="Continue to main menu"
+              >
+                <img class="icon-arrow" alt="arrow icon" aria-hidden="true" />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          id="loading-card"
+          class="cloaked"
+          aria-label="Landing page"
+          role="presentation"
+          aria-hidden="true"
+        >
+          <div id="loading-card-background" role="presentation"></div>
+          <div id="loading-card-content" aria-label="Landing page">
+            <header
+              id="loading-card-header"
+              class="header"
+              role="banner"
+              aria-label="Landing page header links"
+            >
+              <a
+                href="https://www.slv.vic.gov.au/"
+                target="_blank"
+                aria-label="Link to State Library Victoria website"
+                tabindex="-1"
+                class="hc-ele"
+              >
+                <picture id="loading-card-header-slv">
+                  <img
+                    class="icon-slv-logo"
+                    alt="State Library Victoria Logo"
+                  />
+                </picture>
+              </a>
+              <button
+                id="aoc-show"
+                class="aoc-action ui-no-button hc-ele"
+                aria-label="View acknowledgement of country"
+                tabindex="-1"
+              >
+                <img class="icon-arrow" alt="arrow icon" aria-hidden="true" />
+              </button>
+              <a
+                href="https://creative.vic.gov.au/"
+                target="_blank"
+                aria-label="Link to Creative Victoria website"
+                tabindex="-1"
+                class="link-cv-logo hc-ele"
+              >
+                <picture id="loading-card-header-cv">
+                  <img class="icon-cv-logo" alt="Creative Victoria Logo" />
+                </picture>
+              </a>
+            </header>
+            <main id="loading-card-inner" aria-label="Experience introduction">
+              <div id="loading-card__titles">
+                <div
+                  id="loading-card__title"
+                  class="hc-ele"
+                  role="presentation"
+                >
+                  <h1 id="loading-card__title_v">Mouthful of Dust</h1>
+                </div>
+
+                <div id="loading-card__context">
+                  A cinematic web experience that brings new perspectives on
+                  <span class="no-wrap">Ned Kelly,</span> Australia’s most
+                  notorious bushranger.
+                </div>
+              </div>
+
+              <div id="loading-card__award-wrapper">
+                <div id="loading-card__award-recognitions">
+                  <div id="loading-card__award-label">Awards</div>
+                  <div id="loading-card__awards">
+                    <img class="award-w3" alt="W3 award laurel" />
+
+                    <img
+                      class="award-him"
+                      alt="Heritage in Motion award laurel"
+                    />
+                    <img
+                      class="award-agda"
+                      alt="Australian Graphic Design Association award laurel"
+                    />
+                    <img
+                      class="award-c2"
+                      alt="Creative Communication award laurel"
+                    />
+                    <img class="award-gd" alt="Good Design award laurel" />
+                    <div id="loading-card__awards-ghost">
+                      <img class="award-w3" alt="W3 award laurel" />
+
+                      <img
+                        class="award-him"
+                        alt="Heritage in Motion award laurel"
+                      />
+                      <img
+                        class="award-agda"
+                        alt="Australian Graphic Design Association award laurel"
+                      />
+                      <img
+                        class="award-c2"
+                        alt="Creative Communication award laurel"
+                      />
+                      <img class="award-gd" alt="Good Design award laurel" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="loading-card__actions">
+                <div id="enter-wrapper">
+                  <button
+                    id="start-button"
+                    class="ui-button ui-sound-trigger ui-sound__click"
+                    aria-label="Enter the experience"
+                    tabindex="-1"
+                    aria-hidden="true"
+                    aria-live="polite"
+                  >
+                    enter
+                  </button>
+                  <div
+                    id="loader-wrapper"
+                    aria-label="Loading..."
+                    role="progressbar"
+                    aria-valuenow="23"
+                  >
+                    <div id="loader-estimate" aria-hidden="true"></div>
+                    <div id="loader-container" aria-hidden="true"></div>
+                    <div id="loader-label" aria-hidden="true"></div>
+                  </div>
+                  <div id="loading-card__tip">
+                    <img class="icon-headphones-sm" aria-hidden="true" />
+                    Use headphones for the best experience
+                  </div>
+                </div>
+              </div>
+            </main>
+            <footer
+              id="loading-card-footer"
+              class="footer"
+              role="contentinfo"
+              aria-label="Landing page footer, buttons and links"
+            >
+              <div id="loading-card-footer-inner">
+                <div id="loading-card-footer-content">
+                  <div id="loading-card-footer-actions">
+                    <button
+                      id="splash-screen-open-settings"
+                      class="ui-icon ui-no-button settings-button ui-sound-trigger ui-sound__click hc-ele"
+                      aria-label="Show settings"
+                      tabindex="-1"
+                    >
+                      <img class="icon-gear" alt="" aria-hidden="true" />
+                    </button>
+                    <button
+                      id="splash-screen-toggle-sound"
+                      class="ui-icon ui-no-button sound-button sound-enabled ui-sound-trigger ui-sound__click hc-ele"
+                      aria-label="Toggle sound"
+                      tabindex="-1"
+                    >
+                      <img
+                        class="icon-sound-state-on"
+                        alt=""
+                        aria-hidden="true"
+                      />
+                      <img
+                        class="icon-sound-state-off"
+                        alt=""
+                        aria-hidden="true"
+                      />
+                    </button>
+                  </div>
+                  <div id="loading-card-footer-links">
+                    <span id="loading-card-copyright" class="hc-ele"
+                      >© State Library Victoria 2025</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </footer>
+          </div>
+        </div>
+      </div>
+      <aside
+        id="content-warning"
+        aria-label="Content warning"
+        aria-hidden="true"
+        class="cloaked"
+      >
+        <div id="content-warning-inner" role="presentation" tabindex="0">
+          <span class="italic">Mouthful of Dust</span> contains sensitive
+          content including descriptions of violence, death and dying that some
+          viewers may find distressing.
+        </div>
+      </aside>
+      <div
+        id="act-one"
+        class="cloaked"
+        aria-label="Intro sequence slideshow"
+        aria-hidden="true"
+      >
+        <div
+          id="intro-sequence"
+          class="initial-hide unselectable"
+          role="presentation"
+        >
+          <header
+            id="intro-sequence-header"
+            class="header"
+            role="banner"
+            aria-label="Header: Navigation"
+          >
+            <div id="intro-sequence-header-inner">
+              <div id="intro-sequence-header-actions">
+                <div
+                  id="intro-sequence-loader"
+                  class="ui-icon"
+                  aria-label="Assets loading"
+                ></div>
+                <button
+                  id="intro-sequence-skip"
+                  class="ui-icon ui-no-button ui-sound-trigger ui-sound__click hc-ele"
+                  aria-label="Skip intro sequence"
+                  tabindex="-1"
+                >
+                  Skip
+
+                  <img class="icon-skip" alt="" aria-hidden="true" />
+                </button>
+              </div>
+            </div>
+          </header>
+          <main
+            id="intro-image-viewer"
+            aria-label="Intro sequence slideshow"
+          ></main>
+          <div id="subtitle-container" aria-hidden="true"></div>
+          <footer
+            id="intro-sequence-footer"
+            class="footer"
+            role="contentinfo"
+            aria-label="Footer: Controls"
+          >
+            <div id="intro-sequence-footer-inner">
+              <button
+                id="intro-sequence-toggle-sound"
+                class="ui-icon ui-no-button sound-button sound-enabled"
+                aria-label="Toggle sound"
+                tabindex="-1"
+              >
+                <img class="icon-sound-state-on" alt="" aria-hidden="true" />
+                <img class="icon-sound-state-off" alt="" aria-hidden="true" />
+              </button>
+              <button
+                id="act-one__ui-toggle-playback"
+                class="ui-icon ui-no-button playback-icon ui-sound-trigger ui-sound__click"
+                aria-label="Pause sequence"
+                tabindex="-1"
+              >
+                <img class="icon-pause" alt="" aria-hidden="true" />
+                <img class="icon-play" alt="" aria-hidden="true" />
+              </button>
+              <div
+                id="intro-sequence-progress-bar"
+                aria-label="Sequence timeline, use arrow keys to jump back and forward 5 seconds"
+                role="progressbar"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                aria-valuenow="0"
+              >
+                <div id="intro-sequence-progress-bar-inner">
+                  <div id="intro-sequence-progress-background"></div>
+                  <div id="intro-sequence-progress"></div>
+                </div>
+              </div>
+              <div id="intro-sequence-time" role="">
+                <div id="intro-sequence-time-current" aria-hidden="true">
+                  0:00
+                </div>
+                <div id="intro-sequence-time-divider" aria-hidden="true">/</div>
+                <div id="intro-sequence-time-total" aria-hidden="true">
+                  0:00
+                </div>
+              </div>
+              <button
+                id="intro-sequence-toggle-captions"
+                class="ui-icon ui-no-button caption-button hideable ui-sound-trigger ui-sound__click"
+                aria-label="Toggle subtitles"
+                tabindex="-1"
+              >
+                <img
+                  class="state-inactive icon-caption-inactive"
+                  alt=""
+                  aria-hidden="true"
+                />
+
+                <img
+                  class="state-active icon-caption-active"
+                  alt=""
+                  aria-hidden="true"
+                />
+              </button>
+              <button
+                id="intro-sequence-toggle-ad"
+                class="ui-icon ui-no-button ad-button"
+                aria-label="Audio describe slideshow images"
+                tabindex="-1"
+              >
+                <img
+                  class="state-inactive icon-ad-inactive"
+                  alt=""
+                  aria-hidden="true"
+                />
+                <img
+                  class="state-hover icon-ad-hover"
+                  alt=""
+                  aria-hidden="true"
+                />
+                <img
+                  class="state-active icon-ad-pause"
+                  alt=""
+                  aria-hidden="true"
+                />
+                <img
+                  class="state-active-hover icon-ad-pause-hover"
+                  alt=""
+                  aria-hidden="true"
+                />
+              </button>
+            </div>
+          </footer>
+        </div>
+      </div>
+
+      <div
+        id="act-two"
+        class="cloaked hidden"
+        aria-label="3D menu scene inside Redmond Barry Reading Room"
+        aria-hidden="true"
+        role="application"
+        aria-keyshortcuts="ArrowUp ArrowDown ArrowLeft ArrowRight"
+      >
+        <div id="act-two__ui-overlay" role="presentation">
+          <header
+            id="act-two__ui-header"
+            class="header ui-element"
+            role="banner"
+            aria-label="Header: Navigation"
+          >
+            <div id="act-two__ui-header-inner">
+              <button
+                id="act-two__sequence-skip"
+                class="ui-icon ui-no-button ui-sound-trigger ui-sound__click hidden hc-ele"
+                aria-label="Skip onboarding"
+                tabindex="-1"
+              >
+                Skip
+
+                <img class="icon-skip" alt="" aria-hidden="true" />
+              </button>
+              <button
+                id="act-two__ui-open-menu"
+                class="ui-icon ui-no-button hidden ui-sound-trigger ui-sound__click hc-ele"
+                aria-label="Open menu"
+              >
+                <img class="icon-hamburger" alt="" aria-hidden="true" />
+              </button>
+            </div>
+          </header>
+          <main aria-label="3D menu scene">
+            <div
+              id="act-two__ui-left-zone"
+              class="touch-zone hidden ui-element"
+            >
+              <button
+                id="act-two__prev-item"
+                class="ui-icon ui-no-button ui-sound-trigger ui-sound__click"
+                aria-label="previous menu item"
+                tabindex="-1"
+              >
+                <img class="icon-chevron-large" alt="" aria-hidden="true" />
+              </button>
+            </div>
+            <article id="act-two__ui-menu-highlight" class="ui-element">
+              <div id="act-two__ui-menu-highlight-inner">
+                <div id="act-two__ui-menu-highlight-content">
+                  <div id="act-two__ui-menu-highlight-author">
+                    Sarah Krasnostein
+                  </div>
+                  <div id="act-two__ui-menu-highlight-object">The Rifle</div>
+                </div>
+                <div id="act-two__ui-menu-highlight-action-wrapper">
+                  <div
+                    id="act-two__ui-menu-highlight-action"
+                    id="act-two__ui-menu-highlight-listen-outer"
+                    role="button"
+                    aria-label="Listen to the story"
+                  >
+                    <button
+                      id="act-two__ui-menu-highlight-listen"
+                      class="ui-button ui-sound-trigger ui-sound__click"
+                      aria-hidden="true"
+                    >
+                      <svg
+                        width="36"
+                        height="36"
+                        viewBox="0 0 36 36"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g id="State=Play">
+                          <path
+                            id="Triangle"
+                            d="M27.1651 18L10 29.1573L10 6.84269L10 6.84269L27.1651 18Z"
+                            stroke="white"
+                            stroke-width="2"
+                          />
+                        </g>
+                      </svg>
+                      Play
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <div
+              id="act-two__ui-right-zone"
+              class="touch-zone hidden ui-element"
+            >
+              <button
+                id="act-two__next-item"
+                class="ui-icon ui-no-button ui-sound-trigger ui-sound__click"
+                aria-label="next menu item"
+                tabindex="-1"
+              >
+                <img class="icon-chevron-large" alt="" aria-hidden="true" />
+              </button>
+            </div>
+            <div
+              id="act-two__ui-bottom-zone"
+              aria-label="Onboarding instructions, Moving the camera. 1. Scroll, pinch or use shift + up/down arrow keys to zoom. Current progress: 0%"
+            >
+              <div id="act-two__ui-bottom-zone-upper" aria-hidden="true">
+                <div
+                  id="act-two__ui-bottom-zone-upper-text"
+                  class="hc-ele"
+                  role="presentation"
+                >
+                  <div id="act-two__ui-bottom-zone-heading" aria-hidden="true">
+                    Moving the camera
+                  </div>
+                  <div id="act-two__ui-bottom-zone-label">
+                    1. Scroll to zoom
+                  </div>
+                </div>
+                <div
+                  id="act-two__ui-bottom-zone-icon"
+                  role="presentation"
+                  class="hc-ele"
+                  alt="animated mouse scroll icon"
+                  aria-hidden="true"
+                ></div>
+              </div>
+            </div>
+          </main>
+          <footer
+            id="act-two__ui-footer"
+            class="footer ui-element"
+            role="contentinfo"
+            aria-label="Footer: Controls"
+          >
+            <div id="act-two__ui-footer-inner">
+              <div id="act-two__ui-footer-inner-left">
+                <button
+                  id="act-two__ui-open-settings"
+                  class="ui-icon ui-no-button settings-button ui-sound-trigger ui-sound__click"
+                  aria-label="Show settings"
+                  tabindex="-1"
+                >
+                  <img class="icon-gear" alt="" aria-hidden="true" />
+                </button>
+                <button
+                  id="act-two__ui-toggle-sound"
+                  class="ui-icon ui-no-button sound-button sound-enabled"
+                  aria-label="Toggle sound"
+                >
+                  <img class="icon-sound-state-on" alt="" aria-hidden="true" />
+                  <img class="icon-sound-state-off" alt="" aria-hidden="true" />
+                </button>
+              </div>
+              <div id="act-two__ui-bottom-zone-lower" aria-hidden="true">
+                <div id="act-two__ui-bottom-zone-progress-wrapper">
+                  <div
+                    id="act-two__ui-bottom-zone-progress-wrapper-inner"
+                    class="hc-ele"
+                  >
+                    <div id="act-two__ui-bottom-zone-progress-number">0%</div>
+                    <div
+                      id="act-two__ui-bottom-zone-progress-bar"
+                      role="progressbar"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      aria-valuenow="0"
+                    >
+                      <div id="act-two__ui-bottom-zone-progress-bar-inner">
+                        <div
+                          id="act-two__ui-bottom-zone-progress-background"
+                        ></div>
+                        <div id="act-two__ui-bottom-zone-progress"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="act-two__ui-bottom-zone-progress-icons-wrapper">
+                    <div id="act-two__ui-bottom-zone-progress-icons"></div>
+                    <div id="act-two__ui-bottom-zone-dot"></div>
+                  </div>
+                </div>
+              </div>
+              <button
+                id="act-two__ui-toggle-ad"
+                class="ui-icon ui-no-button ad-button"
+                aria-label="Toggle audio description"
+                tabindex="-1"
+              >
+                <img
+                  class="state-inactive icon-ad-inactive"
+                  alt=""
+                  aria-hidden="true"
+                />
+                <img
+                  class="state-hover icon-ad-hover"
+                  alt=""
+                  aria-hidden="true"
+                />
+                <img
+                  class="state-active icon-ad-pause"
+                  alt=""
+                  aria-hidden="true"
+                />
+                <img
+                  class="state-active-hover test icon-ad-pause-hover"
+                  alt=""
+                  aria-hidden="true"
+                />
+              </button>
+            </div>
+          </footer>
+        </div>
+        <div id="act-two__photo-plane" aria-hidden="true">
+          <img
+            id="act-two__photo-plane-img"
+            alt="A historical black and white photo of a room in a museum filled with taxidermy and animal skeletons."
+          />
+        </div>
+      </div>
+
+      <div
+        id="act-three"
+        class="cloaked hidden ui-element unselectable"
+        aria-label="Object story and viewer"
+        aria-hidden="true"
+        role="application"
+      >
+        <div id="act-three__ui-overlay" role="presentation">
+          <header
+            id="act-three__ui-header"
+            role="banner"
+            aria-label="Header: Navigation"
+          >
+            <div id="act-three__ui-header-vignette" class="header"></div>
+            <div id="act-three__ui-header-inner">
+              <button
+                id="act-three__ui-back"
+                class="ui-icon ui-no-button ui-sound-trigger ui-sound__clack hideable"
+                aria-label="Go back"
+              >
+                <img class="icon-back" alt="" aria-hidden="true" />
+                <div class="button-label">back</div>
+              </button>
+              <div id="act-three__ui-camera-mode-container" role="presentation">
+                <div
+                  id="act-three__ui-camera-mode"
+                  class="hideable camera-mode"
+                  role="presentation"
+                >
+                  <div
+                    id="act-three__ui-camera-mode__icon"
+                    role="button"
+                    aria-label="Open camera mode settings"
+                  >
+                    <img class="icon-camera" alt="" aria-hidden="true" />
+                  </div>
+                  <div
+                    id="act-three__ui-camera-mode__inner"
+                    aria-hidden="true"
+                    role="presentation"
+                  >
+                    <span aria-hidden="true">Camera mode:</span>
+                    <div
+                      id="act-three__ui-camera-mode__toggle"
+                      class="cinema"
+                      aria-label="Switch to manual camera mode"
+                      role="button"
+                    >
+                      <div id="camera-mode-tab" aria-hidden="true"></div>
+                      <div
+                        id="act-three__ui-camera-mode__toggle__manual"
+                        class="camera-mode__option ui-sound-trigger ui-sound__click"
+                        aria-hidden="true"
+                      >
+                        <div
+                          class="camera-mode__option-icon"
+                          aria-hidden="true"
+                        >
+                          <img class="icon-manual" alt="" aria-hidden="true" />
+                        </div>
+                        <div
+                          class="camera-mode__option-label"
+                          aria-hidden="true"
+                        >
+                          Manual
+                        </div>
+                      </div>
+                      <div
+                        id="act-three__ui-camera-mode__toggle__cinema"
+                        class="camera-mode__option ui-sound-trigger ui-sound__click"
+                        aria-hidden="true"
+                      >
+                        <div
+                          class="camera-mode__option-icon"
+                          aria-hidden="true"
+                        >
+                          <img class="icon-cinema" alt="" aria-hidden="true" />
+                        </div>
+                        <div
+                          class="camera-mode__option-label"
+                          aria-hidden="true"
+                        >
+                          Cinema
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="act-three__ui-camera-transition">
+                  <div id="act-three__ui-camera-transition-radial"></div>
+                </div>
+              </div>
+              <button
+                id="act-three__ui-open-info"
+                class="ui-icon ui-no-button ui-sound-trigger ui-sound__click hideable"
+                aria-label="Open information"
+              >
+                <div class="button-label">info</div>
+
+                <img class="icon-info" alt="" aria-hidden="true" />
+              </button>
+            </div>
+          </header>
+          <div
+            id="act-three__subtitle-container"
+            aria-hidden="true"
+            class="empty"
+          ></div>
+          <main aria-label="object description">
+            <div id="act-three__object-description"></div>
+            <div
+              id="act-three__object-description-detail"
+              aria-hidden="true"
+              aria-label="Read the Jerilderie letter pages"
+            ></div>
+          </main>
+          <footer
+            id="act-three__ui-footer"
+            role="contentinfo"
+            aria-label="Footer: Controls"
+          >
+            <div
+              id="act-three__ui-footer-vignette"
+              class="footer"
+              role="presentation"
+            ></div>
+
+            <div id="act-three__ui-footer-inner">
+              <button
+                id="act-three__ui-open-settings"
+                class="ui-icon ui-no-button settings-button ui-sound-trigger ui-sound__click hideable"
+                aria-label="Show settings"
+                tabindex="-1"
+              >
+                <img class="icon-gear" alt="" aria-hidden="true" />
+              </button>
+              <button
+                id="act-three__ui-toggle-sound"
+                class="ui-icon ui-no-button sound-button sound-enabled hideable"
+                aria-label="Toggle sound"
+              >
+                <img class="icon-sound-state-on" alt="" aria-hidden="true" />
+                <img class="icon-sound-state-off" alt="" aria-hidden="true" />
+              </button>
+              <div id="act-three__ui-footer-inner-letter">
+                <div class="mod__ui-button-wrapper hideable">
+                  <button
+                    id="act-three__ui-flip-page"
+                    class="ui-icon ui-no-button ui-sound-trigger ui-sound__click"
+                    aria-label="Toggle page side"
+                  >
+                    <div id="act-three__ui-flip-page-icon-wrapper">
+                      <img
+                        id="act-three__ui-flip-page-icon"
+                        class="icon-letter-flip letter-flip-icon"
+                        alt=""
+                        aria-hidden="true"
+                      />
+                      <img
+                        id="act-three__ui-flip-page-back-icon"
+                        class="icon-letter-flip-back letter-flip-icon"
+                        alt=""
+                        aria-hidden="true"
+                      />
+                    </div>
+                  </button>
+                  <div class="mod__ui-label" aria-hidden="true">Flip</div>
+                </div>
+                <div class="mod__ui-button-wrapper hideable">
+                  <button
+                    id="act-three__ui-toggle-overlay"
+                    class="ui-icon ui-no-button ui-sound-trigger ui-sound__click"
+                    aria-label="Toggle text overlay"
+                  >
+                    <img
+                      id="act-three__ui-toggle-overlay-icon"
+                      class="icon-text-overlay"
+                      alt=""
+                      aria-hidden="true"
+                    />
+                  </button>
+                  <div class="mod__ui-label" aria-hidden="true">Read</div>
+                </div>
+              </div>
+              <button
+                id="act-three__ui-toggle-playback"
+                class="ui-icon ui-no-button hideable playback-icon pan-hide"
+                aria-label="Play sequence"
+              >
+                <img class="icon-pause" alt="" aria-hidden="true" />
+                <img class="icon-play" alt="" aria-hidden="true" />
+                <img class="icon-replay" alt="" aria-hidden="true" />
+              </button>
+              <div
+                id="act-three__ui-progress-bar"
+                class="pan-hide"
+                aria-label="Sequence timeline, use arrow keys to jump back and forward 10 seconds"
+                role="progressbar"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                aria-valuenow="0"
+              >
+                <div id="act-three__ui-progress-bar-inner">
+                  <div id="act-three__ui-progress-background"></div>
+                  <div id="act-three__ui-progress"></div>
+                </div>
+              </div>
+              <div
+                id="act-three__ui-time"
+                class="hideable pan-hide"
+                aria-label="current time readout"
+              >
+                <div id="act-three__ui-time-remaining" aria-hidden="true">
+                  0:00
+                </div>
+                <div id="act-three__ui-time-current" aria-hidden="true">
+                  0:00
+                </div>
+                <div id="act-three__ui-time-divider" aria-hidden="true">/</div>
+                <div id="act-three__ui-time-total" aria-hidden="true">0:00</div>
+              </div>
+              <button
+                id="act-three__ui-toggle-captions"
+                class="ui-icon ui-no-button caption-button hideable ui-sound-trigger ui-sound__click pan-hide"
+                aria-label="Toggle subtitles"
+                tabindex="-1"
+              >
+                <img
+                  class="state-inactive icon-caption-inactive"
+                  alt=""
+                  aria-hidden="true"
+                />
+
+                <img
+                  class="state-active icon-caption-active"
+                  alt=""
+                  aria-hidden="true"
+                />
+              </button>
+              <button
+                id="act-three__ui-toggle-ad"
+                class="ui-icon ui-no-button ad-button hideable"
+                aria-label="Toggle audio description"
+                tabindex="-1"
+              >
+                <img
+                  class="state-inactive icon-ad-inactive"
+                  alt=""
+                  aria-hidden="true"
+                />
+                <img
+                  class="state-hover icon-ad-hover"
+                  alt=""
+                  aria-hidden="true"
+                />
+                <img
+                  class="state-active icon-ad-pause"
+                  alt=""
+                  aria-hidden="true"
+                />
+                <img
+                  class="state-active-hover icon-ad-pause-hover"
+                  alt=""
+                  aria-hidden="true"
+                />
+              </button>
+            </div>
+          </footer>
+        </div>
+      </div>
+
+      <aside id="screen-wipe" aria-hidden="true"></aside>
+
+      <aside id="modal-container" aria-hidden="true">
+        <div id="modal-overlay-blur" class="no-blur" aria-hidden="true"></div>
+        <div id="modal-wrapper" class="cloaked">
+          <div id="modal-overlay" aria-hidden="true"></div>
+          <header id="modal-header">
+            <div id="modal-header-inner">
+              <button
+                id="modal-dismiss"
+                class="ui-icon ui-no-button"
+                aria-label="Close modal"
+              >
+                <img class="icon-close" alt="" aria-hidden="true" />
+              </button>
+            </div>
+          </header>
+          <article id="modal-content">
+            <div id="modal-content-inner">
+              <div id="modal-content-inner-copy"></div>
+            </div>
+          </article>
+        </div>
+      </aside>
+
+      <aside id="toast-centre" aria-label="hidden"></aside>
+
+      <aside id="buffering" class="cloaked" aria-label="hidden">
+        <div id="buffering-inner">
+          <div id="buffering-spinner">
+            <img
+              src="https://d2xkbpwjh6kvh9.cloudfront.net/slv-a-mouthful-of-dust/media/images/1744581420c97/spinner.svg"
+              alt="animated loading spinner"
+            />
+          </div>
+          <div id="buffering-message">Downloading scene...</div>
+        </div>
+      </aside>
+
+      <div id="app"></div>
+
+      <div id="onscreen-controls" class="cloaked hideable" aria-hidden="true">
+        <div id="onscreen-controls-inner">
+          <div id="onscreen-controls-move" class="onscreen-controls-control">
+            <div class="onscreen-controls-label">Move</div>
+            <div class="onscreen-controls-visual">
+              <img
+                src="https://d2xkbpwjh6kvh9.cloudfront.net/slv-a-mouthful-of-dust/media/images/1754553228778/d-pad.svg"
+                alt=""
+                aria-hidden="true"
+              />
+              <div
+                class="onscreen-controls-hotspot move-hotspot-up"
+                id="move-hotspot-up"
+              ></div>
+              <div
+                class="onscreen-controls-hotspot move-hotspot-down"
+                id="move-hotspot-down"
+              ></div>
+              <div
+                class="onscreen-controls-hotspot move-hotspot-left"
+                id="move-hotspot-left"
+              ></div>
+              <div
+                class="onscreen-controls-hotspot move-hotspot-right"
+                id="move-hotspot-right"
+              ></div>
+            </div>
+          </div>
+          <div id="onscreen-controls-zoom" class="onscreen-controls-control">
+            <div class="onscreen-controls-label">Zoom</div>
+            <div class="onscreen-controls-visual">
+              <img
+                src="https://d2xkbpwjh6kvh9.cloudfront.net/slv-a-mouthful-of-dust/media/images/175455322e82a/zoom-control.svg"
+                alt=""
+                aria-hidden="true"
+              />
+              <div
+                class="onscreen-controls-hotspot zoom-hotspot-in"
+                id="zoom-hotspot-in"
+              ></div>
+              <div
+                class="onscreen-controls-hotspot zoom-hotspot-out"
+                id="zoom-hotspot-out"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </body>
+</html>

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Hintze-Hall - VR Tour
+* source:	https://sketchfab.com/3d-models/hintze-hall-vr-tour-058b26fb31ed49df978de31af3dc091f
+* author:	Another-me (https://sketchfab.com/fredlucazeau)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Hintze-Hall - VR Tour" (https://sketchfab.com/3d-models/hintze-hall-vr-tour-058b26fb31ed49df978de31af3dc091f) by Another-me (https://sketchfab.com/fredlucazeau) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
