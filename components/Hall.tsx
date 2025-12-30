@@ -17,9 +17,24 @@ export default function Hall({ active = true }: { active?: boolean }) {
                 m.receiveShadow = true;
                 m.castShadow = true;
                 if (m.material) {
-                    const material = m.material as THREE.MeshStandardMaterial;
-                    material.envMapIntensity = 0.5;
+                    // Clone material to avoid sharing issues
+                    const originalMaterial = m.material as THREE.MeshStandardMaterial;
+                    const material = originalMaterial.clone();
+
+                    // Apply realistic stone/dust palette instead of random colors
+                    // Warm grey/sand color
+                    material.color.setHex(0xeae5d5);
+
+                    // Add some subtle variation based on position or random to avoid flat look
+                    // but keep it within the "stone" range
+                    const variation = (Math.random() - 0.5) * 0.1;
+                    material.color.offsetHSL(0, 0, variation);
+
+
+                    material.envMapIntensity = 0.8;
+                    material.roughness = 0.7;
                     material.transparent = true; // Enable transparency for fading
+                    m.material = material; // Assign the new unique material
                     materials.push(material);
                 }
             }
@@ -48,5 +63,6 @@ export default function Hall({ active = true }: { active?: boolean }) {
         });
     });
 
-    return <primitive object={scene} scale={[0.5, 0.5, 0.5]} position={[0, -2, 0]} />;
+    // Rotate 90 degrees to align long axis with camera approach
+    return <primitive object={scene} scale={[0.5, 0.5, 0.5]} position={[0, -2, 0]} rotation={[0, -Math.PI / 2, 0]} />;
 }

@@ -40,14 +40,10 @@ export default function ScrollIntro({ progress, onSkip }: ScrollIntroProps) {
 
             {/* Center Content */}
             <div className="absolute top-1/4 w-full flex flex-col items-center gap-8 text-white text-center">
-                <h2 className="text-xl md:text-2xl uppercase tracking-[0.2em] font-light text-shadow-lg">
-                    Moving the Camera
-                </h2>
-
-                <div className="flex flex-col items-center gap-4 animate-pulse">
-                    <span className="text-lg font-serif">1. Scroll to zoom</span>
-                    <div className="w-6 h-10 border border-white/50 rounded-full flex justify-center p-1">
-                        <div className="w-1 h-2 bg-white rounded-full animate-bounce" />
+                <div className="flex flex-col items-center gap-4 animate-pulse opacity-80">
+                    <span className="text-sm md:text-base tracking-[0.3em] font-light uppercase">Scroll to Enter</span>
+                    <div className="w-5 h-8 border border-white/30 rounded-full flex justify-center p-1">
+                        <div className="w-1 h-1.5 bg-white rounded-full animate-bounce" />
                     </div>
                 </div>
             </div>
